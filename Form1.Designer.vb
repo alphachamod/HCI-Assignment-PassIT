@@ -26,6 +26,9 @@ Partial Class Form1
         Panel1 = New Panel()
         PictureBox1 = New PictureBox()
         Panel2 = New Panel()
+        Label6 = New Label()
+        Label5 = New Label()
+        IconPictureBox3 = New FontAwesome.Sharp.IconPictureBox()
         Button1 = New Button()
         Label4 = New Label()
         IconButton1 = New FontAwesome.Sharp.IconButton()
@@ -37,15 +40,12 @@ Partial Class Form1
         Label1 = New Label()
         TextBox2 = New TextBox()
         TextBox1 = New TextBox()
-        IconPictureBox3 = New FontAwesome.Sharp.IconPictureBox()
-        Label5 = New Label()
-        Label6 = New Label()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Panel2.SuspendLayout()
+        CType(IconPictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Panel3.SuspendLayout()
-        CType(IconPictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Panel1
@@ -89,6 +89,38 @@ Partial Class Form1
         Panel2.Name = "Panel2"
         Panel2.Size = New Size(541, 658)
         Panel2.TabIndex = 2
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Location = New Point(131, 598)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(242, 20)
+        Label6.TabIndex = 11
+        Label6.Text = "We're more than happy to help you"
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Location = New Point(130, 580)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(343, 20)
+        Label5.TabIndex = 10
+        Label5.Text = "Having trouble logging in? Contact Us for support."
+        ' 
+        ' IconPictureBox3
+        ' 
+        IconPictureBox3.BackColor = Color.White
+        IconPictureBox3.ForeColor = SystemColors.ControlText
+        IconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.Envelope
+        IconPictureBox3.IconColor = SystemColors.ControlText
+        IconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconPictureBox3.IconSize = 47
+        IconPictureBox3.Location = New Point(72, 580)
+        IconPictureBox3.Name = "IconPictureBox3"
+        IconPictureBox3.Size = New Size(50, 47)
+        IconPictureBox3.TabIndex = 9
+        IconPictureBox3.TabStop = False
         ' 
         ' Button1
         ' 
@@ -210,38 +242,6 @@ Partial Class Form1
         TextBox1.Size = New Size(351, 27)
         TextBox1.TabIndex = 0
         ' 
-        ' IconPictureBox3
-        ' 
-        IconPictureBox3.BackColor = Color.White
-        IconPictureBox3.ForeColor = SystemColors.ControlText
-        IconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.Envelope
-        IconPictureBox3.IconColor = SystemColors.ControlText
-        IconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconPictureBox3.IconSize = 47
-        IconPictureBox3.Location = New Point(72, 580)
-        IconPictureBox3.Name = "IconPictureBox3"
-        IconPictureBox3.Size = New Size(50, 47)
-        IconPictureBox3.TabIndex = 9
-        IconPictureBox3.TabStop = False
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Location = New Point(130, 580)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(343, 20)
-        Label5.TabIndex = 10
-        Label5.Text = "Having trouble logging in? Contact Us for support."
-        ' 
-        ' Label6
-        ' 
-        Label6.AutoSize = True
-        Label6.Location = New Point(131, 598)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(242, 20)
-        Label6.TabIndex = 11
-        Label6.Text = "We're more than happy to help you"
-        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -257,11 +257,11 @@ Partial Class Form1
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         Panel2.ResumeLayout(False)
         Panel2.PerformLayout()
+        CType(IconPictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(IconPictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(IconPictureBox1, ComponentModel.ISupportInitialize).EndInit()
         Panel3.ResumeLayout(False)
         Panel3.PerformLayout()
-        CType(IconPictureBox3, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
