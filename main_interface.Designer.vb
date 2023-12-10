@@ -46,11 +46,11 @@ Partial Class main_interface
         Panel3 = New Panel()
         Label9 = New Label()
         Label3 = New Label()
+        IconPictureBox6 = New FontAwesome.Sharp.IconPictureBox()
         Label2 = New Label()
         Current_Icon = New FontAwesome.Sharp.IconPictureBox()
-        IconPictureBox6 = New FontAwesome.Sharp.IconPictureBox()
         CurrentLabel = New Label()
-        Panel5 = New Panel()
+        sub_form = New Panel()
         Panel1.SuspendLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -60,8 +60,8 @@ Partial Class main_interface
         CType(IconPictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox5, ComponentModel.ISupportInitialize).BeginInit()
         Panel3.SuspendLayout()
-        CType(Current_Icon, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox6, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Current_Icon, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Panel1
@@ -373,6 +373,20 @@ Partial Class main_interface
         Label3.TabIndex = 3
         Label3.Text = "Chamod Abeyrathne"
         ' 
+        ' IconPictureBox6
+        ' 
+        IconPictureBox6.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(22))
+        IconPictureBox6.ForeColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
+        IconPictureBox6.IconChar = FontAwesome.Sharp.IconChar.Gear
+        IconPictureBox6.IconColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
+        IconPictureBox6.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconPictureBox6.IconSize = 48
+        IconPictureBox6.Location = New Point(1006, 36)
+        IconPictureBox6.Name = "IconPictureBox6"
+        IconPictureBox6.Size = New Size(51, 48)
+        IconPictureBox6.TabIndex = 7
+        IconPictureBox6.TabStop = False
+        ' 
         ' Label2
         ' 
         Label2.AutoSize = True
@@ -398,20 +412,6 @@ Partial Class main_interface
         Current_Icon.TabIndex = 0
         Current_Icon.TabStop = False
         ' 
-        ' IconPictureBox6
-        ' 
-        IconPictureBox6.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(22))
-        IconPictureBox6.ForeColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
-        IconPictureBox6.IconChar = FontAwesome.Sharp.IconChar.Gear
-        IconPictureBox6.IconColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
-        IconPictureBox6.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconPictureBox6.IconSize = 48
-        IconPictureBox6.Location = New Point(1006, 36)
-        IconPictureBox6.Name = "IconPictureBox6"
-        IconPictureBox6.Size = New Size(51, 48)
-        IconPictureBox6.TabIndex = 7
-        IconPictureBox6.TabStop = False
-        ' 
         ' CurrentLabel
         ' 
         CurrentLabel.AutoSize = True
@@ -423,20 +423,20 @@ Partial Class main_interface
         CurrentLabel.TabIndex = 1
         CurrentLabel.Text = "HOME"
         ' 
-        ' Panel5
+        ' sub_form
         ' 
-        Panel5.Dock = DockStyle.Fill
-        Panel5.Location = New Point(401, 125)
-        Panel5.Name = "Panel5"
-        Panel5.Size = New Size(1081, 778)
-        Panel5.TabIndex = 2
+        sub_form.Dock = DockStyle.Fill
+        sub_form.Location = New Point(401, 125)
+        sub_form.Name = "sub_form"
+        sub_form.Size = New Size(1081, 778)
+        sub_form.TabIndex = 2
         ' 
         ' main_interface
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1482, 903)
-        Controls.Add(Panel5)
+        Controls.Add(sub_form)
         Controls.Add(Panel3)
         Controls.Add(Panel1)
         Name = "main_interface"
@@ -453,8 +453,8 @@ Partial Class main_interface
         CType(IconPictureBox5, ComponentModel.ISupportInitialize).EndInit()
         Panel3.ResumeLayout(False)
         Panel3.PerformLayout()
-        CType(Current_Icon, ComponentModel.ISupportInitialize).EndInit()
         CType(IconPictureBox6, ComponentModel.ISupportInitialize).EndInit()
+        CType(Current_Icon, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -485,5 +485,5 @@ Partial Class main_interface
     Friend WithEvents sidebarPanel As Panel
     Friend WithEvents Label9 As Label
     Friend WithEvents IconPictureBox6 As FontAwesome.Sharp.IconPictureBox
-    Friend WithEvents Panel5 As Panel
+    Friend WithEvents sub_form As Panel
 End Class

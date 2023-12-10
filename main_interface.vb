@@ -50,6 +50,33 @@ Public Class main_interface
         End If
     End Sub
 
+    Private Sub OpenChildForm(childForm As Form)
+        'Open only form'
+
+        ' If currentChildForm IsNot Nothing Then
+
+        'currentChildForm.Close()
+        ' End If
+        currentChildForm = childForm
+        'end'
+        childForm.TopLevel = False
+        childForm.FormBorderStyle = FormBorderStyle.None
+        childForm.Dock = DockStyle.Fill
+        sub_form.Controls.Add(childForm)
+        sub_form.Tag = childForm
+        childForm.BringToFront()
+        childForm.Show()
+        CurrentLabel.Text = childForm.Text.ToUpper
+
+    End Sub
+
+    Private Sub Reset()
+        DisableButton()
+
+        Current_Icon.IconChar = IconChar.Home
+        Current_Icon.IconColor = Color.FromArgb(245, 127, 23)
+        CurrentLabel.Text = "Home"
+    End Sub
 
     Private Sub main_interface_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         RoundButton(btn_profile)
@@ -91,21 +118,45 @@ Public Class main_interface
 
     Private Sub btn_profile_Click(sender As Object, e As EventArgs) Handles btn_profile.Click
         ActivateButton(sender)
+        OpenChildForm(Profile)
     End Sub
 
     Private Sub btn_book_Click(sender As Object, e As EventArgs) Handles btn_book.Click
         ActivateButton(sender)
+        OpenChildForm(Bookings)
     End Sub
 
     Private Sub btn_lessons_Click(sender As Object, e As EventArgs) Handles btn_lessons.Click
         ActivateButton(sender)
+        OpenChildForm(Lessons)
     End Sub
 
     Private Sub btn_instructors_Click(sender As Object, e As EventArgs) Handles btn_instructors.Click
         ActivateButton(sender)
+        OpenChildForm(Instructors)
     End Sub
 
     Private Sub btn_passplus_Click(sender As Object, e As EventArgs) Handles btn_passplus.Click
         ActivateButton(sender)
+        OpenChildForm(Passplus)
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        If currentChildForm IsNot Nothing Then
+            currentChildForm.Close()
+        End If
+        Reset()
+    End Sub
+
+    Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
+        OpenChildForm(Contact)
+    End Sub
+
+    Private Sub IconPictureBox6_Click(sender As Object, e As EventArgs) Handles IconPictureBox6.Click
+        OpenChildForm(Settings)
+    End Sub
+
+    Private Sub btn_logout_Click(sender As Object, e As EventArgs) Handles btn_logout.Click
+        Application.Exit()
     End Sub
 End Class
