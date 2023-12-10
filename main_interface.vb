@@ -160,4 +160,8 @@ Public Class main_interface
     Private Sub btn_logout_Click(sender As Object, e As EventArgs) Handles btn_logout.Click
         Application.Exit()
     End Sub
+
+    Private Sub Label25_Click(sender As Object, e As EventArgs) Handles Label25.Click
+
+    End Sub
 End Class
