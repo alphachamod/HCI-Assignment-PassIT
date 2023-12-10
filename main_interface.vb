@@ -146,6 +146,7 @@ Public Class main_interface
             currentChildForm.Close()
         End If
         Reset()
+        OpenChildForm(Overview)
     End Sub
 
     Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
