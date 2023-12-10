@@ -41,15 +41,15 @@ Partial Class main_interface
         IconPictureBox3 = New FontAwesome.Sharp.IconPictureBox()
         IconPictureBox4 = New FontAwesome.Sharp.IconPictureBox()
         IconPictureBox5 = New FontAwesome.Sharp.IconPictureBox()
-        Panel4 = New Panel()
+        sidebarPanel = New Panel()
         btn_logout = New FontAwesome.Sharp.IconButton()
         Panel3 = New Panel()
         Label9 = New Label()
         Label3 = New Label()
         Label2 = New Label()
-        IconPictureBox1 = New FontAwesome.Sharp.IconPictureBox()
+        Current_Icon = New FontAwesome.Sharp.IconPictureBox()
         IconPictureBox6 = New FontAwesome.Sharp.IconPictureBox()
-        Label1 = New Label()
+        CurrentLabel = New Label()
         Panel5 = New Panel()
         Panel1.SuspendLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -60,7 +60,7 @@ Partial Class main_interface
         CType(IconPictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox5, ComponentModel.ISupportInitialize).BeginInit()
         Panel3.SuspendLayout()
-        CType(IconPictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Current_Icon, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -83,7 +83,7 @@ Partial Class main_interface
         Panel1.Controls.Add(IconPictureBox3)
         Panel1.Controls.Add(IconPictureBox4)
         Panel1.Controls.Add(IconPictureBox5)
-        Panel1.Controls.Add(Panel4)
+        Panel1.Controls.Add(sidebarPanel)
         Panel1.Dock = DockStyle.Left
         Panel1.Location = New Point(0, 0)
         Panel1.Name = "Panel1"
@@ -310,13 +310,13 @@ Partial Class main_interface
         IconPictureBox5.TabIndex = 17
         IconPictureBox5.TabStop = False
         ' 
-        ' Panel4
+        ' sidebarPanel
         ' 
-        Panel4.Dock = DockStyle.Fill
-        Panel4.Location = New Point(0, 0)
-        Panel4.Name = "Panel4"
-        Panel4.Size = New Size(401, 903)
-        Panel4.TabIndex = 19
+        sidebarPanel.Dock = DockStyle.Fill
+        sidebarPanel.Location = New Point(0, 0)
+        sidebarPanel.Name = "sidebarPanel"
+        sidebarPanel.Size = New Size(401, 903)
+        sidebarPanel.TabIndex = 19
         ' 
         ' btn_logout
         ' 
@@ -327,7 +327,7 @@ Partial Class main_interface
         btn_logout.IconColor = Color.Crimson
         btn_logout.IconFont = FontAwesome.Sharp.IconFont.Auto
         btn_logout.IconSize = 25
-        btn_logout.Location = New Point(906, 40)
+        btn_logout.Location = New Point(846, 40)
         btn_logout.Name = "btn_logout"
         btn_logout.Size = New Size(142, 49)
         btn_logout.TabIndex = 6
@@ -340,11 +340,11 @@ Partial Class main_interface
         Panel3.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(22))
         Panel3.Controls.Add(Label9)
         Panel3.Controls.Add(Label3)
+        Panel3.Controls.Add(IconPictureBox6)
         Panel3.Controls.Add(btn_logout)
         Panel3.Controls.Add(Label2)
-        Panel3.Controls.Add(IconPictureBox1)
-        Panel3.Controls.Add(IconPictureBox6)
-        Panel3.Controls.Add(Label1)
+        Panel3.Controls.Add(Current_Icon)
+        Panel3.Controls.Add(CurrentLabel)
         Panel3.Dock = DockStyle.Top
         Panel3.Location = New Point(401, 0)
         Panel3.Name = "Panel3"
@@ -356,7 +356,7 @@ Partial Class main_interface
         Label9.AutoSize = True
         Label9.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label9.ForeColor = SystemColors.ButtonShadow
-        Label9.Location = New Point(132, 81)
+        Label9.Location = New Point(1000, 87)
         Label9.Name = "Label9"
         Label9.Size = New Size(65, 17)
         Label9.TabIndex = 8
@@ -367,7 +367,7 @@ Partial Class main_interface
         Label3.AutoSize = True
         Label3.Font = New Font("Tw Cen MT", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = SystemColors.ButtonHighlight
-        Label3.Location = New Point(716, 67)
+        Label3.Location = New Point(656, 67)
         Label3.Name = "Label3"
         Label3.Size = New Size(176, 23)
         Label3.TabIndex = 3
@@ -378,25 +378,25 @@ Partial Class main_interface
         Label2.AutoSize = True
         Label2.Font = New Font("Tw Cen MT", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = SystemColors.ButtonHighlight
-        Label2.Location = New Point(771, 39)
+        Label2.Location = New Point(711, 39)
         Label2.Name = "Label2"
         Label2.Size = New Size(131, 33)
         Label2.TabIndex = 2
         Label2.Text = "Welcome! "
         ' 
-        ' IconPictureBox1
+        ' Current_Icon
         ' 
-        IconPictureBox1.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(22))
-        IconPictureBox1.ForeColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
-        IconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.HomeLgAlt
-        IconPictureBox1.IconColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
-        IconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconPictureBox1.IconSize = 48
-        IconPictureBox1.Location = New Point(50, 30)
-        IconPictureBox1.Name = "IconPictureBox1"
-        IconPictureBox1.Size = New Size(51, 48)
-        IconPictureBox1.TabIndex = 0
-        IconPictureBox1.TabStop = False
+        Current_Icon.BackColor = Color.FromArgb(CByte(23), CByte(23), CByte(22))
+        Current_Icon.ForeColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
+        Current_Icon.IconChar = FontAwesome.Sharp.IconChar.HomeLgAlt
+        Current_Icon.IconColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
+        Current_Icon.IconFont = FontAwesome.Sharp.IconFont.Auto
+        Current_Icon.IconSize = 48
+        Current_Icon.Location = New Point(50, 39)
+        Current_Icon.Name = "Current_Icon"
+        Current_Icon.Size = New Size(51, 48)
+        Current_Icon.TabIndex = 0
+        Current_Icon.TabStop = False
         ' 
         ' IconPictureBox6
         ' 
@@ -406,22 +406,22 @@ Partial Class main_interface
         IconPictureBox6.IconColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
         IconPictureBox6.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox6.IconSize = 48
-        IconPictureBox6.Location = New Point(138, 30)
+        IconPictureBox6.Location = New Point(1006, 36)
         IconPictureBox6.Name = "IconPictureBox6"
         IconPictureBox6.Size = New Size(51, 48)
         IconPictureBox6.TabIndex = 7
         IconPictureBox6.TabStop = False
         ' 
-        ' Label1
+        ' CurrentLabel
         ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label1.ForeColor = SystemColors.ButtonShadow
-        Label1.Location = New Point(50, 81)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(46, 17)
-        Label1.TabIndex = 1
-        Label1.Text = "HOME"
+        CurrentLabel.AutoSize = True
+        CurrentLabel.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        CurrentLabel.ForeColor = SystemColors.ButtonShadow
+        CurrentLabel.Location = New Point(120, 54)
+        CurrentLabel.Name = "CurrentLabel"
+        CurrentLabel.Size = New Size(59, 23)
+        CurrentLabel.TabIndex = 1
+        CurrentLabel.Text = "HOME"
         ' 
         ' Panel5
         ' 
@@ -453,7 +453,7 @@ Partial Class main_interface
         CType(IconPictureBox5, ComponentModel.ISupportInitialize).EndInit()
         Panel3.ResumeLayout(False)
         Panel3.PerformLayout()
-        CType(IconPictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(Current_Icon, ComponentModel.ISupportInitialize).EndInit()
         CType(IconPictureBox6, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
@@ -468,8 +468,8 @@ Partial Class main_interface
     Friend WithEvents btn_lessons As FontAwesome.Sharp.IconButton
     Friend WithEvents btn_book As FontAwesome.Sharp.IconButton
     Friend WithEvents btn_logout As FontAwesome.Sharp.IconButton
-    Friend WithEvents Label1 As Label
-    Friend WithEvents IconPictureBox1 As FontAwesome.Sharp.IconPictureBox
+    Friend WithEvents CurrentLabel As Label
+    Friend WithEvents Current_Icon As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label4 As Label
@@ -482,7 +482,7 @@ Partial Class main_interface
     Friend WithEvents IconPictureBox4 As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents IconPictureBox5 As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents Panel4 As Panel
+    Friend WithEvents sidebarPanel As Panel
     Friend WithEvents Label9 As Label
     Friend WithEvents IconPictureBox6 As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents Panel5 As Panel

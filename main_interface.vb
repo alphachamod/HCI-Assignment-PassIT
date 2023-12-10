@@ -1,4 +1,55 @@
-﻿Public Class main_interface
+﻿Imports FontAwesome.Sharp
+Public Class main_interface
+
+
+    Private currentBtn As IconButton
+
+    Private currentChildForm As Form
+
+    'Constructor'
+    Public Sub New()
+
+        ' This call is required by the designer.'
+        InitializeComponent()
+
+        'Form'
+        Me.Text = String.Empty
+        Me.ControlBox = True
+        Me.DoubleBuffered = True
+        Me.MaximizedBounds = Screen.PrimaryScreen.WorkingArea
+
+    End Sub
+
+    'Methods'
+    Private Sub ActivateButton(senderBtn As Object)
+        If senderBtn IsNot Nothing Then
+            DisableButton()
+            'Button'
+            currentBtn = CType(senderBtn, IconButton)
+            currentBtn.BackColor = Color.FromArgb(245, 127, 23)
+
+            currentBtn.TextAlign = ContentAlignment.MiddleCenter
+            currentBtn.ImageAlign = ContentAlignment.MiddleRight
+            currentBtn.TextImageRelation = TextImageRelation.TextBeforeImage
+
+            'current Form icon'
+            Current_Icon.IconChar = currentBtn.IconChar
+
+
+        End If
+    End Sub
+
+    Private Sub DisableButton()
+        If currentBtn IsNot Nothing Then
+            currentBtn.BackColor = Color.FromArgb(241, 196, 15)
+            currentBtn.ForeColor = Color.Black
+            currentBtn.IconColor = Color.Black
+            currentBtn.TextAlign = ContentAlignment.MiddleCenter
+            currentBtn.ImageAlign = ContentAlignment.MiddleCenter
+            currentBtn.TextImageRelation = TextImageRelation.ImageBeforeText
+        End If
+    End Sub
+
 
     Private Sub main_interface_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         RoundButton(btn_profile)
@@ -38,5 +89,23 @@
 
     End Sub
 
+    Private Sub btn_profile_Click(sender As Object, e As EventArgs) Handles btn_profile.Click
+        ActivateButton(sender)
+    End Sub
 
+    Private Sub btn_book_Click(sender As Object, e As EventArgs) Handles btn_book.Click
+        ActivateButton(sender)
+    End Sub
+
+    Private Sub btn_lessons_Click(sender As Object, e As EventArgs) Handles btn_lessons.Click
+        ActivateButton(sender)
+    End Sub
+
+    Private Sub btn_instructors_Click(sender As Object, e As EventArgs) Handles btn_instructors.Click
+        ActivateButton(sender)
+    End Sub
+
+    Private Sub btn_passplus_Click(sender As Object, e As EventArgs) Handles btn_passplus.Click
+        ActivateButton(sender)
+    End Sub
 End Class
