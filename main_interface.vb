@@ -15,7 +15,7 @@ Public Class main_interface
         'Form'
         Me.Text = String.Empty
         Me.ControlBox = True
-        Me.DoubleBuffered = True
+        ' Me.DoubleBuffered = True
         Me.MaximizedBounds = Screen.PrimaryScreen.WorkingArea
 
     End Sub
@@ -161,7 +161,5 @@ Public Class main_interface
         Application.Exit()
     End Sub
 
-    Private Sub Label25_Click(sender As Object, e As EventArgs) Handles Label25.Click
 
-    End Sub
 End Class
