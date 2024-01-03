@@ -29,8 +29,6 @@ Partial Class Form1
         Label6 = New Label()
         Label5 = New Label()
         IconPictureBox3 = New FontAwesome.Sharp.IconPictureBox()
-        Button1 = New Button()
-        Label4 = New Label()
         IconButton1 = New FontAwesome.Sharp.IconButton()
         IconPictureBox2 = New FontAwesome.Sharp.IconPictureBox()
         IconPictureBox1 = New FontAwesome.Sharp.IconPictureBox()
@@ -74,8 +72,6 @@ Partial Class Form1
         Panel2.Controls.Add(Label6)
         Panel2.Controls.Add(Label5)
         Panel2.Controls.Add(IconPictureBox3)
-        Panel2.Controls.Add(Button1)
-        Panel2.Controls.Add(Label4)
         Panel2.Controls.Add(IconButton1)
         Panel2.Controls.Add(IconPictureBox2)
         Panel2.Controls.Add(IconPictureBox1)
@@ -122,27 +118,6 @@ Partial Class Form1
         IconPictureBox3.TabIndex = 9
         IconPictureBox3.TabStop = False
         ' 
-        ' Button1
-        ' 
-        Button1.BackColor = Color.SteelBlue
-        Button1.FlatStyle = FlatStyle.Flat
-        Button1.ForeColor = SystemColors.ButtonHighlight
-        Button1.Location = New Point(261, 431)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(185, 29)
-        Button1.TabIndex = 8
-        Button1.Text = "Register"
-        Button1.UseVisualStyleBackColor = False
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Location = New Point(95, 435)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(160, 20)
-        Label4.TabIndex = 7
-        Label4.Text = "Dont have an account?"
-        ' 
         ' IconButton1
         ' 
         IconButton1.AutoSize = True
@@ -152,7 +127,7 @@ Partial Class Form1
         IconButton1.IconChar = FontAwesome.Sharp.IconChar.ArrowRight
         IconButton1.IconColor = SystemColors.ActiveCaptionText
         IconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconButton1.Location = New Point(95, 358)
+        IconButton1.Location = New Point(95, 373)
         IconButton1.Name = "IconButton1"
         IconButton1.Size = New Size(351, 61)
         IconButton1.TabIndex = 6
@@ -277,8 +252,6 @@ Partial Class Form1
     Friend WithEvents IconPictureBox2 As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents IconPictureBox1 As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents IconButton1 As FontAwesome.Sharp.IconButton
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents IconPictureBox3 As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents Label6 As Label

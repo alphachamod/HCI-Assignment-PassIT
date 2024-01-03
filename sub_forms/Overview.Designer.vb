@@ -593,9 +593,9 @@ Partial Class Overview
         Label25.ForeColor = SystemColors.ButtonShadow
         Label25.Location = New Point(67, 149)
         Label25.Name = "Label25"
-        Label25.Size = New Size(179, 25)
+        Label25.Size = New Size(157, 25)
         Label25.TabIndex = 12
-        Label25.Text = "December 26th 2023"
+        Label25.Text = "January 13th 2024"
         ' 
         ' IconPictureBox7
         ' 

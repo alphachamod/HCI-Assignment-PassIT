@@ -50,6 +50,22 @@ Partial Class main_interface
         Current_Icon = New FontAwesome.Sharp.IconPictureBox()
         CurrentLabel = New Label()
         sub_form = New Panel()
+        BunifuCards5 = New Bunifu.Framework.UI.BunifuCards()
+        IconPictureBox8 = New FontAwesome.Sharp.IconPictureBox()
+        IconPictureBox9 = New FontAwesome.Sharp.IconPictureBox()
+        IconPictureBox10 = New FontAwesome.Sharp.IconPictureBox()
+        Label27 = New Label()
+        Label28 = New Label()
+        Label29 = New Label()
+        Label30 = New Label()
+        Label31 = New Label()
+        Label32 = New Label()
+        Label33 = New Label()
+        Label34 = New Label()
+        BunifuCards4 = New Bunifu.Framework.UI.BunifuCards()
+        Label35 = New Label()
+        Label36 = New Label()
+        Label37 = New Label()
         BunifuCards1 = New Bunifu.Framework.UI.BunifuCards()
         Label20 = New Label()
         Label19 = New Label()
@@ -78,22 +94,6 @@ Partial Class main_interface
         Label1 = New Label()
         PictureBox3 = New PictureBox()
         PictureBox5 = New PictureBox()
-        BunifuCards5 = New Bunifu.Framework.UI.BunifuCards()
-        IconPictureBox8 = New FontAwesome.Sharp.IconPictureBox()
-        IconPictureBox9 = New FontAwesome.Sharp.IconPictureBox()
-        IconPictureBox10 = New FontAwesome.Sharp.IconPictureBox()
-        Label27 = New Label()
-        Label28 = New Label()
-        Label29 = New Label()
-        Label30 = New Label()
-        Label31 = New Label()
-        Label32 = New Label()
-        Label33 = New Label()
-        Label34 = New Label()
-        BunifuCards4 = New Bunifu.Framework.UI.BunifuCards()
-        Label35 = New Label()
-        Label36 = New Label()
-        Label37 = New Label()
         Panel1.SuspendLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -106,6 +106,11 @@ Partial Class main_interface
         CType(IconPictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         CType(Current_Icon, ComponentModel.ISupportInitialize).BeginInit()
         sub_form.SuspendLayout()
+        BunifuCards5.SuspendLayout()
+        CType(IconPictureBox8, ComponentModel.ISupportInitialize).BeginInit()
+        CType(IconPictureBox9, ComponentModel.ISupportInitialize).BeginInit()
+        CType(IconPictureBox10, ComponentModel.ISupportInitialize).BeginInit()
+        BunifuCards4.SuspendLayout()
         BunifuCards1.SuspendLayout()
         CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         BunifuCards2.SuspendLayout()
@@ -115,11 +120,6 @@ Partial Class main_interface
         CType(IconPictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
-        BunifuCards5.SuspendLayout()
-        CType(IconPictureBox8, ComponentModel.ISupportInitialize).BeginInit()
-        CType(IconPictureBox9, ComponentModel.ISupportInitialize).BeginInit()
-        CType(IconPictureBox10, ComponentModel.ISupportInitialize).BeginInit()
-        BunifuCards4.SuspendLayout()
         SuspendLayout()
         ' 
         ' Panel1
@@ -491,6 +491,221 @@ Partial Class main_interface
         sub_form.Size = New Size(1081, 778)
         sub_form.TabIndex = 2
         ' 
+        ' BunifuCards5
+        ' 
+        BunifuCards5.BackColor = Color.Indigo
+        BunifuCards5.BorderRadius = 50
+        BunifuCards5.BottomSahddow = True
+        BunifuCards5.BottomShadow = True
+        BunifuCards5.color = Color.Transparent
+        BunifuCards5.Controls.Add(IconPictureBox8)
+        BunifuCards5.Controls.Add(IconPictureBox9)
+        BunifuCards5.Controls.Add(IconPictureBox10)
+        BunifuCards5.Controls.Add(Label27)
+        BunifuCards5.Controls.Add(Label28)
+        BunifuCards5.Controls.Add(Label29)
+        BunifuCards5.Controls.Add(Label30)
+        BunifuCards5.Controls.Add(Label31)
+        BunifuCards5.Controls.Add(Label32)
+        BunifuCards5.Controls.Add(Label33)
+        BunifuCards5.Controls.Add(Label34)
+        BunifuCards5.IndicatorColor = Color.Transparent
+        BunifuCards5.LeftSahddow = False
+        BunifuCards5.LeftShadow = False
+        BunifuCards5.Location = New Point(365, 565)
+        BunifuCards5.Name = "BunifuCards5"
+        BunifuCards5.RightSahddow = True
+        BunifuCards5.RightShadow = True
+        BunifuCards5.ShadowDepth = 20
+        BunifuCards5.Size = New Size(697, 189)
+        BunifuCards5.TabIndex = 14
+        ' 
+        ' IconPictureBox8
+        ' 
+        IconPictureBox8.BackColor = Color.Indigo
+        IconPictureBox8.ForeColor = SystemColors.ControlText
+        IconPictureBox8.IconChar = FontAwesome.Sharp.IconChar.VanShuttle
+        IconPictureBox8.IconColor = SystemColors.ControlText
+        IconPictureBox8.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconPictureBox8.IconSize = 50
+        IconPictureBox8.Location = New Point(568, 106)
+        IconPictureBox8.Name = "IconPictureBox8"
+        IconPictureBox8.Size = New Size(50, 50)
+        IconPictureBox8.TabIndex = 11
+        IconPictureBox8.TabStop = False
+        ' 
+        ' IconPictureBox9
+        ' 
+        IconPictureBox9.BackColor = Color.Indigo
+        IconPictureBox9.ForeColor = SystemColors.ControlText
+        IconPictureBox9.IconChar = FontAwesome.Sharp.IconChar.Motorcycle
+        IconPictureBox9.IconColor = SystemColors.ControlText
+        IconPictureBox9.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconPictureBox9.IconSize = 50
+        IconPictureBox9.Location = New Point(512, 106)
+        IconPictureBox9.Name = "IconPictureBox9"
+        IconPictureBox9.Size = New Size(50, 50)
+        IconPictureBox9.TabIndex = 10
+        IconPictureBox9.TabStop = False
+        ' 
+        ' IconPictureBox10
+        ' 
+        IconPictureBox10.BackColor = Color.Indigo
+        IconPictureBox10.ForeColor = SystemColors.ControlText
+        IconPictureBox10.IconChar = FontAwesome.Sharp.IconChar.CarSide
+        IconPictureBox10.IconColor = SystemColors.ControlText
+        IconPictureBox10.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconPictureBox10.IconSize = 50
+        IconPictureBox10.Location = New Point(456, 106)
+        IconPictureBox10.Name = "IconPictureBox10"
+        IconPictureBox10.Size = New Size(50, 50)
+        IconPictureBox10.TabIndex = 9
+        IconPictureBox10.TabStop = False
+        ' 
+        ' Label27
+        ' 
+        Label27.AutoSize = True
+        Label27.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label27.ForeColor = SystemColors.ButtonHighlight
+        Label27.Location = New Point(477, 24)
+        Label27.Name = "Label27"
+        Label27.Size = New Size(118, 41)
+        Label27.TabIndex = 7
+        Label27.Text = "Vehicle"
+        ' 
+        ' Label28
+        ' 
+        Label28.AutoSize = True
+        Label28.Font = New Font("Segoe UI Black", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label28.ForeColor = Color.FromArgb(CByte(11), CByte(11), CByte(11))
+        Label28.Location = New Point(276, 89)
+        Label28.Name = "Label28"
+        Label28.Size = New Size(71, 81)
+        Label28.TabIndex = 5
+        Label28.Text = "0"
+        ' 
+        ' Label29
+        ' 
+        Label29.AutoSize = True
+        Label29.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label29.ForeColor = SystemColors.ButtonHighlight
+        Label29.Location = New Point(218, 21)
+        Label29.Name = "Label29"
+        Label29.Size = New Size(173, 41)
+        Label29.TabIndex = 4
+        Label29.Text = "Completed"
+        ' 
+        ' Label30
+        ' 
+        Label30.AutoSize = True
+        Label30.Font = New Font("Segoe UI Black", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label30.ForeColor = Color.FromArgb(CByte(11), CByte(11), CByte(11))
+        Label30.Location = New Point(66, 89)
+        Label30.Name = "Label30"
+        Label30.Size = New Size(100, 81)
+        Label30.TabIndex = 3
+        Label30.Text = "13"
+        ' 
+        ' Label31
+        ' 
+        Label31.AutoSize = True
+        Label31.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label31.ForeColor = SystemColors.ButtonHighlight
+        Label31.Location = New Point(37, 21)
+        Label31.Name = "Label31"
+        Label31.Size = New Size(173, 41)
+        Label31.TabIndex = 2
+        Label31.Text = "Completed"
+        ' 
+        ' Label32
+        ' 
+        Label32.AutoSize = True
+        Label32.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label32.ForeColor = SystemColors.ButtonHighlight
+        Label32.Location = New Point(58, 48)
+        Label32.Name = "Label32"
+        Label32.Size = New Size(124, 41)
+        Label32.TabIndex = 1
+        Label32.Text = "Lessons"
+        ' 
+        ' Label33
+        ' 
+        Label33.AutoSize = True
+        Label33.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label33.ForeColor = SystemColors.ButtonHighlight
+        Label33.Location = New Point(254, 48)
+        Label33.Name = "Label33"
+        Label33.Size = New Size(107, 41)
+        Label33.TabIndex = 6
+        Label33.Text = "Exams"
+        ' 
+        ' Label34
+        ' 
+        Label34.AutoSize = True
+        Label34.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label34.ForeColor = SystemColors.ButtonHighlight
+        Label34.Location = New Point(486, 52)
+        Label34.Name = "Label34"
+        Label34.Size = New Size(99, 41)
+        Label34.TabIndex = 8
+        Label34.Text = "Types"
+        ' 
+        ' BunifuCards4
+        ' 
+        BunifuCards4.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        BunifuCards4.BorderRadius = 50
+        BunifuCards4.BottomSahddow = True
+        BunifuCards4.BottomShadow = True
+        BunifuCards4.color = Color.Transparent
+        BunifuCards4.Controls.Add(Label35)
+        BunifuCards4.Controls.Add(Label36)
+        BunifuCards4.Controls.Add(Label37)
+        BunifuCards4.IndicatorColor = Color.Transparent
+        BunifuCards4.LeftSahddow = False
+        BunifuCards4.LeftShadow = False
+        BunifuCards4.Location = New Point(19, 565)
+        BunifuCards4.Name = "BunifuCards4"
+        BunifuCards4.RightSahddow = True
+        BunifuCards4.RightShadow = True
+        BunifuCards4.ShadowDepth = 20
+        BunifuCards4.Size = New Size(330, 189)
+        BunifuCards4.TabIndex = 13
+        ' 
+        ' Label35
+        ' 
+        Label35.AutoSize = True
+        Label35.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        Label35.Font = New Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label35.ForeColor = SystemColors.ButtonHighlight
+        Label35.Location = New Point(19, 135)
+        Label35.Name = "Label35"
+        Label35.Size = New Size(171, 31)
+        Label35.TabIndex = 19
+        Label35.Text = "Not Completed"
+        ' 
+        ' Label36
+        ' 
+        Label36.AutoSize = True
+        Label36.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        Label36.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label36.ForeColor = SystemColors.ButtonHighlight
+        Label36.Location = New Point(18, 107)
+        Label36.Name = "Label36"
+        Label36.Size = New Size(173, 28)
+        Label36.TabIndex = 17
+        Label36.Text = "Introductory Exam"
+        ' 
+        ' Label37
+        ' 
+        Label37.AutoSize = True
+        Label37.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold)
+        Label37.ForeColor = SystemColors.ButtonHighlight
+        Label37.Location = New Point(18, 24)
+        Label37.Name = "Label37"
+        Label37.Size = New Size(239, 38)
+        Label37.TabIndex = 18
+        Label37.Text = "®PassPlus Status"
+        ' 
         ' BunifuCards1
         ' 
         BunifuCards1.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
@@ -648,9 +863,9 @@ Partial Class main_interface
         Label25.ForeColor = SystemColors.ButtonShadow
         Label25.Location = New Point(67, 149)
         Label25.Name = "Label25"
-        Label25.Size = New Size(179, 25)
+        Label25.Size = New Size(157, 25)
         Label25.TabIndex = 12
-        Label25.Text = "December 26th 2023"
+        Label25.Text = "January 13th 2024"
         ' 
         ' IconPictureBox7
         ' 
@@ -859,221 +1074,6 @@ Partial Class main_interface
         PictureBox5.TabIndex = 15
         PictureBox5.TabStop = False
         ' 
-        ' BunifuCards5
-        ' 
-        BunifuCards5.BackColor = Color.Indigo
-        BunifuCards5.BorderRadius = 50
-        BunifuCards5.BottomSahddow = True
-        BunifuCards5.BottomShadow = True
-        BunifuCards5.color = Color.Transparent
-        BunifuCards5.Controls.Add(IconPictureBox8)
-        BunifuCards5.Controls.Add(IconPictureBox9)
-        BunifuCards5.Controls.Add(IconPictureBox10)
-        BunifuCards5.Controls.Add(Label27)
-        BunifuCards5.Controls.Add(Label28)
-        BunifuCards5.Controls.Add(Label29)
-        BunifuCards5.Controls.Add(Label30)
-        BunifuCards5.Controls.Add(Label31)
-        BunifuCards5.Controls.Add(Label32)
-        BunifuCards5.Controls.Add(Label33)
-        BunifuCards5.Controls.Add(Label34)
-        BunifuCards5.IndicatorColor = Color.Transparent
-        BunifuCards5.LeftSahddow = False
-        BunifuCards5.LeftShadow = False
-        BunifuCards5.Location = New Point(365, 565)
-        BunifuCards5.Name = "BunifuCards5"
-        BunifuCards5.RightSahddow = True
-        BunifuCards5.RightShadow = True
-        BunifuCards5.ShadowDepth = 20
-        BunifuCards5.Size = New Size(697, 189)
-        BunifuCards5.TabIndex = 14
-        ' 
-        ' IconPictureBox8
-        ' 
-        IconPictureBox8.BackColor = Color.Indigo
-        IconPictureBox8.ForeColor = SystemColors.ControlText
-        IconPictureBox8.IconChar = FontAwesome.Sharp.IconChar.VanShuttle
-        IconPictureBox8.IconColor = SystemColors.ControlText
-        IconPictureBox8.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconPictureBox8.IconSize = 50
-        IconPictureBox8.Location = New Point(568, 106)
-        IconPictureBox8.Name = "IconPictureBox8"
-        IconPictureBox8.Size = New Size(50, 50)
-        IconPictureBox8.TabIndex = 11
-        IconPictureBox8.TabStop = False
-        ' 
-        ' IconPictureBox9
-        ' 
-        IconPictureBox9.BackColor = Color.Indigo
-        IconPictureBox9.ForeColor = SystemColors.ControlText
-        IconPictureBox9.IconChar = FontAwesome.Sharp.IconChar.Motorcycle
-        IconPictureBox9.IconColor = SystemColors.ControlText
-        IconPictureBox9.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconPictureBox9.IconSize = 50
-        IconPictureBox9.Location = New Point(512, 106)
-        IconPictureBox9.Name = "IconPictureBox9"
-        IconPictureBox9.Size = New Size(50, 50)
-        IconPictureBox9.TabIndex = 10
-        IconPictureBox9.TabStop = False
-        ' 
-        ' IconPictureBox10
-        ' 
-        IconPictureBox10.BackColor = Color.Indigo
-        IconPictureBox10.ForeColor = SystemColors.ControlText
-        IconPictureBox10.IconChar = FontAwesome.Sharp.IconChar.Cab
-        IconPictureBox10.IconColor = SystemColors.ControlText
-        IconPictureBox10.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconPictureBox10.IconSize = 50
-        IconPictureBox10.Location = New Point(461, 109)
-        IconPictureBox10.Name = "IconPictureBox10"
-        IconPictureBox10.Size = New Size(50, 50)
-        IconPictureBox10.TabIndex = 9
-        IconPictureBox10.TabStop = False
-        ' 
-        ' Label27
-        ' 
-        Label27.AutoSize = True
-        Label27.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label27.ForeColor = SystemColors.ButtonHighlight
-        Label27.Location = New Point(477, 24)
-        Label27.Name = "Label27"
-        Label27.Size = New Size(118, 41)
-        Label27.TabIndex = 7
-        Label27.Text = "Vehicle"
-        ' 
-        ' Label28
-        ' 
-        Label28.AutoSize = True
-        Label28.Font = New Font("Segoe UI Black", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label28.ForeColor = Color.FromArgb(CByte(11), CByte(11), CByte(11))
-        Label28.Location = New Point(276, 89)
-        Label28.Name = "Label28"
-        Label28.Size = New Size(71, 81)
-        Label28.TabIndex = 5
-        Label28.Text = "0"
-        ' 
-        ' Label29
-        ' 
-        Label29.AutoSize = True
-        Label29.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label29.ForeColor = SystemColors.ButtonHighlight
-        Label29.Location = New Point(218, 21)
-        Label29.Name = "Label29"
-        Label29.Size = New Size(173, 41)
-        Label29.TabIndex = 4
-        Label29.Text = "Completed"
-        ' 
-        ' Label30
-        ' 
-        Label30.AutoSize = True
-        Label30.Font = New Font("Segoe UI Black", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label30.ForeColor = Color.FromArgb(CByte(11), CByte(11), CByte(11))
-        Label30.Location = New Point(66, 89)
-        Label30.Name = "Label30"
-        Label30.Size = New Size(100, 81)
-        Label30.TabIndex = 3
-        Label30.Text = "13"
-        ' 
-        ' Label31
-        ' 
-        Label31.AutoSize = True
-        Label31.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label31.ForeColor = SystemColors.ButtonHighlight
-        Label31.Location = New Point(37, 21)
-        Label31.Name = "Label31"
-        Label31.Size = New Size(173, 41)
-        Label31.TabIndex = 2
-        Label31.Text = "Completed"
-        ' 
-        ' Label32
-        ' 
-        Label32.AutoSize = True
-        Label32.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label32.ForeColor = SystemColors.ButtonHighlight
-        Label32.Location = New Point(58, 48)
-        Label32.Name = "Label32"
-        Label32.Size = New Size(124, 41)
-        Label32.TabIndex = 1
-        Label32.Text = "Lessons"
-        ' 
-        ' Label33
-        ' 
-        Label33.AutoSize = True
-        Label33.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label33.ForeColor = SystemColors.ButtonHighlight
-        Label33.Location = New Point(254, 48)
-        Label33.Name = "Label33"
-        Label33.Size = New Size(107, 41)
-        Label33.TabIndex = 6
-        Label33.Text = "Exams"
-        ' 
-        ' Label34
-        ' 
-        Label34.AutoSize = True
-        Label34.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label34.ForeColor = SystemColors.ButtonHighlight
-        Label34.Location = New Point(486, 52)
-        Label34.Name = "Label34"
-        Label34.Size = New Size(99, 41)
-        Label34.TabIndex = 8
-        Label34.Text = "Types"
-        ' 
-        ' BunifuCards4
-        ' 
-        BunifuCards4.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
-        BunifuCards4.BorderRadius = 50
-        BunifuCards4.BottomSahddow = True
-        BunifuCards4.BottomShadow = True
-        BunifuCards4.color = Color.Transparent
-        BunifuCards4.Controls.Add(Label35)
-        BunifuCards4.Controls.Add(Label36)
-        BunifuCards4.Controls.Add(Label37)
-        BunifuCards4.IndicatorColor = Color.Transparent
-        BunifuCards4.LeftSahddow = False
-        BunifuCards4.LeftShadow = False
-        BunifuCards4.Location = New Point(19, 565)
-        BunifuCards4.Name = "BunifuCards4"
-        BunifuCards4.RightSahddow = True
-        BunifuCards4.RightShadow = True
-        BunifuCards4.ShadowDepth = 20
-        BunifuCards4.Size = New Size(330, 189)
-        BunifuCards4.TabIndex = 13
-        ' 
-        ' Label35
-        ' 
-        Label35.AutoSize = True
-        Label35.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
-        Label35.Font = New Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label35.ForeColor = SystemColors.ButtonHighlight
-        Label35.Location = New Point(19, 135)
-        Label35.Name = "Label35"
-        Label35.Size = New Size(171, 31)
-        Label35.TabIndex = 19
-        Label35.Text = "Not Completed"
-        ' 
-        ' Label36
-        ' 
-        Label36.AutoSize = True
-        Label36.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
-        Label36.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label36.ForeColor = SystemColors.ButtonHighlight
-        Label36.Location = New Point(18, 107)
-        Label36.Name = "Label36"
-        Label36.Size = New Size(173, 28)
-        Label36.TabIndex = 17
-        Label36.Text = "Introductory Exam"
-        ' 
-        ' Label37
-        ' 
-        Label37.AutoSize = True
-        Label37.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold)
-        Label37.ForeColor = SystemColors.ButtonHighlight
-        Label37.Location = New Point(18, 24)
-        Label37.Name = "Label37"
-        Label37.Size = New Size(239, 38)
-        Label37.TabIndex = 18
-        Label37.Text = "®PassPlus Status"
-        ' 
         ' main_interface
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -1099,6 +1099,13 @@ Partial Class main_interface
         CType(IconPictureBox6, ComponentModel.ISupportInitialize).EndInit()
         CType(Current_Icon, ComponentModel.ISupportInitialize).EndInit()
         sub_form.ResumeLayout(False)
+        BunifuCards5.ResumeLayout(False)
+        BunifuCards5.PerformLayout()
+        CType(IconPictureBox8, ComponentModel.ISupportInitialize).EndInit()
+        CType(IconPictureBox9, ComponentModel.ISupportInitialize).EndInit()
+        CType(IconPictureBox10, ComponentModel.ISupportInitialize).EndInit()
+        BunifuCards4.ResumeLayout(False)
+        BunifuCards4.PerformLayout()
         BunifuCards1.ResumeLayout(False)
         BunifuCards1.PerformLayout()
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
@@ -1112,13 +1119,6 @@ Partial Class main_interface
         CType(IconPictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
-        BunifuCards5.ResumeLayout(False)
-        BunifuCards5.PerformLayout()
-        CType(IconPictureBox8, ComponentModel.ISupportInitialize).EndInit()
-        CType(IconPictureBox9, ComponentModel.ISupportInitialize).EndInit()
-        CType(IconPictureBox10, ComponentModel.ISupportInitialize).EndInit()
-        BunifuCards4.ResumeLayout(False)
-        BunifuCards4.PerformLayout()
         ResumeLayout(False)
     End Sub
 
