@@ -120,7 +120,7 @@ Partial Class Bookings
         Label4.Name = "Label4"
         Label4.Size = New Size(64, 50)
         Label4.TabIndex = 14
-        Label4.Text = "02"
+        Label4.Text = "01"
         ' 
         ' IconPictureBox2
         ' 
@@ -290,7 +290,7 @@ Partial Class Bookings
         Label15.Name = "Label15"
         Label15.Size = New Size(104, 28)
         Label15.TabIndex = 20
-        Label15.Text = "6th Lesson"
+        Label15.Text = "8th Lesson"
         ' 
         ' Label16
         ' 
@@ -373,7 +373,7 @@ Partial Class Bookings
         Label10.Name = "Label10"
         Label10.Size = New Size(104, 28)
         Label10.TabIndex = 13
-        Label10.Text = "6th Lesson"
+        Label10.Text = "7th Lesson"
         ' 
         ' Label11
         ' 
@@ -456,7 +456,7 @@ Partial Class Bookings
         Label9.Name = "Label9"
         Label9.Size = New Size(104, 28)
         Label9.TabIndex = 6
-        Label9.Text = "5th Lesson"
+        Label9.Text = "6th Lesson"
         ' 
         ' Label8
         ' 

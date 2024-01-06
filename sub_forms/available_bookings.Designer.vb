@@ -60,6 +60,12 @@ Partial Class available_bookings
         Label26 = New Label()
         Label27 = New Label()
         IconPictureBox5 = New FontAwesome.Sharp.IconPictureBox()
+        Label28 = New Label()
+        Label29 = New Label()
+        Label30 = New Label()
+        Label31 = New Label()
+        Label32 = New Label()
+        Label33 = New Label()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox1, ComponentModel.ISupportInitialize).BeginInit()
@@ -160,7 +166,7 @@ Partial Class available_bookings
         Label9.Name = "Label9"
         Label9.Size = New Size(65, 41)
         Label9.TabIndex = 28
-        Label9.Text = "4th"
+        Label9.Text = "5th"
         ' 
         ' Label3
         ' 
@@ -374,7 +380,7 @@ Partial Class available_bookings
         Label19.Name = "Label19"
         Label19.Size = New Size(65, 41)
         Label19.TabIndex = 49
-        Label19.Text = "8th"
+        Label19.Text = "9th"
         ' 
         ' Label20
         ' 
@@ -394,9 +400,9 @@ Partial Class available_bookings
         Label21.ForeColor = Color.Wheat
         Label21.Location = New Point(39, 338)
         Label21.Name = "Label21"
-        Label21.Size = New Size(65, 41)
+        Label21.Size = New Size(82, 41)
         Label21.TabIndex = 51
-        Label21.Text = "9th"
+        Label21.Text = "10th"
         ' 
         ' Label23
         ' 
@@ -439,9 +445,9 @@ Partial Class available_bookings
         Label14.ForeColor = SystemColors.ButtonHighlight
         Label14.Location = New Point(337, 134)
         Label14.Name = "Label14"
-        Label14.Size = New Size(487, 20)
+        Label14.Size = New Size(266, 20)
         Label14.TabIndex = 56
-        Label14.Text = "You booked this earlier and didn't complete. Please retake the lesson"
+        Label14.Text = "Low Performance! Please book again"
         ' 
         ' Label25
         ' 
@@ -492,12 +498,85 @@ Partial Class available_bookings
         IconPictureBox5.TabIndex = 60
         IconPictureBox5.TabStop = False
         ' 
+        ' Label28
+        ' 
+        Label28.AutoSize = True
+        Label28.Font = New Font("Segoe UI Semilight", 13.8F, FontStyle.Strikeout, GraphicsUnit.Point, CByte(0))
+        Label28.ForeColor = SystemColors.AppWorkspace
+        Label28.Location = New Point(757, 155)
+        Label28.Name = "Label28"
+        Label28.Size = New Size(79, 31)
+        Label28.TabIndex = 61
+        Label28.Text = "£69.99"
+        ' 
+        ' Label29
+        ' 
+        Label29.AutoSize = True
+        Label29.Font = New Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label29.ForeColor = SystemColors.ButtonHighlight
+        Label29.Location = New Point(842, 154)
+        Label29.Name = "Label29"
+        Label29.Size = New Size(85, 31)
+        Label29.TabIndex = 62
+        Label29.Text = "£29.99"
+        ' 
+        ' Label30
+        ' 
+        Label30.AutoSize = True
+        Label30.Font = New Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label30.ForeColor = SystemColors.ButtonHighlight
+        Label30.Location = New Point(844, 259)
+        Label30.Name = "Label30"
+        Label30.Size = New Size(84, 31)
+        Label30.TabIndex = 63
+        Label30.Text = "£74.99"
+        ' 
+        ' Label31
+        ' 
+        Label31.AutoSize = True
+        Label31.Font = New Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label31.ForeColor = SystemColors.ButtonHighlight
+        Label31.Location = New Point(844, 375)
+        Label31.Name = "Label31"
+        Label31.Size = New Size(84, 31)
+        Label31.TabIndex = 64
+        Label31.Text = "£79.00"
+        ' 
+        ' Label32
+        ' 
+        Label32.AutoSize = True
+        Label32.Font = New Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label32.ForeColor = SystemColors.ControlDarkDark
+        Label32.Location = New Point(844, 474)
+        Label32.Name = "Label32"
+        Label32.Size = New Size(85, 31)
+        Label32.TabIndex = 65
+        Label32.Text = "£84.99"
+        ' 
+        ' Label33
+        ' 
+        Label33.AutoSize = True
+        Label33.BackColor = Color.Transparent
+        Label33.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label33.ForeColor = SystemColors.ActiveCaption
+        Label33.Location = New Point(846, 137)
+        Label33.Name = "Label33"
+        Label33.Size = New Size(57, 20)
+        Label33.TabIndex = 66
+        Label33.Text = "Special"
+        ' 
         ' available_bookings
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
         ClientSize = New Size(1080, 576)
+        Controls.Add(Label33)
+        Controls.Add(Label32)
+        Controls.Add(Label31)
+        Controls.Add(Label30)
+        Controls.Add(Label29)
+        Controls.Add(Label28)
         Controls.Add(IconPictureBox5)
         Controls.Add(Label27)
         Controls.Add(VScrollBar1)
@@ -589,4 +668,10 @@ Partial Class available_bookings
     Friend WithEvents Label26 As Label
     Friend WithEvents Label27 As Label
     Friend WithEvents IconPictureBox5 As FontAwesome.Sharp.IconPictureBox
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Label29 As Label
+    Friend WithEvents Label30 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents Label32 As Label
+    Friend WithEvents Label33 As Label
 End Class
