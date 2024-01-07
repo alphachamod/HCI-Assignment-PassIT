@@ -22,6 +22,7 @@ Partial Class checkout_page
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(checkout_page))
         PictureBox3 = New PictureBox()
         Label22 = New Label()
@@ -33,20 +34,17 @@ Partial Class checkout_page
         IconPictureBox3 = New FontAwesome.Sharp.IconPictureBox()
         IconPictureBox2 = New FontAwesome.Sharp.IconPictureBox()
         IconPictureBox1 = New FontAwesome.Sharp.IconPictureBox()
-        Label13 = New Label()
-        TextBox9 = New TextBox()
-        TextBox5 = New TextBox()
-        TextBox6 = New TextBox()
-        TextBox7 = New TextBox()
-        TextBox8 = New TextBox()
+        cvv_cc = New TextBox()
+        number_cc = New TextBox()
+        name_cc = New TextBox()
         Label9 = New Label()
         Label10 = New Label()
         Label11 = New Label()
         Label12 = New Label()
-        TextBox3 = New TextBox()
-        TextBox4 = New TextBox()
-        TextBox2 = New TextBox()
-        TextBox1 = New TextBox()
+        postal_code = New TextBox()
+        state = New TextBox()
+        addressLine1 = New TextBox()
+        addressLine2 = New TextBox()
         Label8 = New Label()
         Label7 = New Label()
         Label6 = New Label()
@@ -67,8 +65,14 @@ Partial Class checkout_page
         Label3 = New Label()
         Label1 = New Label()
         BunifuCards1 = New Bunifu.Framework.UI.BunifuCards()
+        dtpExpiryDate = New DateTimePicker()
+        country = New ComboBox()
         IconPictureBox5 = New FontAwesome.Sharp.IconPictureBox()
         Label27 = New Label()
+        ErrorProvider1 = New ErrorProvider(components)
+        ErrorProvider2 = New ErrorProvider(components)
+        ErrorProvider3 = New ErrorProvider(components)
+        ErrorProvider4 = New ErrorProvider(components)
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox4, ComponentModel.ISupportInitialize).BeginInit()
@@ -79,6 +83,10 @@ Partial Class checkout_page
         BunifuCards2.SuspendLayout()
         BunifuCards1.SuspendLayout()
         CType(IconPictureBox5, ComponentModel.ISupportInitialize).BeginInit()
+        CType(ErrorProvider1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(ErrorProvider2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(ErrorProvider3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(ErrorProvider4, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' PictureBox3
@@ -203,66 +211,33 @@ Partial Class checkout_page
         IconPictureBox1.TabIndex = 99
         IconPictureBox1.TabStop = False
         ' 
-        ' Label13
+        ' cvv_cc
         ' 
-        Label13.AutoSize = True
-        Label13.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label13.ForeColor = SystemColors.ButtonHighlight
-        Label13.Location = New Point(394, 494)
-        Label13.Name = "Label13"
-        Label13.Size = New Size(17, 23)
-        Label13.TabIndex = 28
-        Label13.Text = "/"
+        cvv_cc.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        cvv_cc.ForeColor = SystemColors.Info
+        cvv_cc.Location = New Point(31, 494)
+        cvv_cc.Name = "cvv_cc"
+        cvv_cc.PasswordChar = "*"c
+        cvv_cc.Size = New Size(204, 27)
+        cvv_cc.TabIndex = 25
         ' 
-        ' TextBox9
+        ' number_cc
         ' 
-        TextBox9.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        TextBox9.ForeColor = SystemColors.GrayText
-        TextBox9.Location = New Point(416, 494)
-        TextBox9.Name = "TextBox9"
-        TextBox9.Size = New Size(57, 27)
-        TextBox9.TabIndex = 27
-        TextBox9.Text = "YY"
-        TextBox9.TextAlign = HorizontalAlignment.Center
+        number_cc.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        number_cc.ForeColor = SystemColors.Info
+        number_cc.Location = New Point(332, 417)
+        number_cc.Name = "number_cc"
+        number_cc.Size = New Size(204, 27)
+        number_cc.TabIndex = 24
         ' 
-        ' TextBox5
+        ' name_cc
         ' 
-        TextBox5.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        TextBox5.ForeColor = SystemColors.GrayText
-        TextBox5.Location = New Point(332, 494)
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(57, 27)
-        TextBox5.TabIndex = 26
-        TextBox5.Text = "MM"
-        TextBox5.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' TextBox6
-        ' 
-        TextBox6.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        TextBox6.ForeColor = SystemColors.Info
-        TextBox6.Location = New Point(31, 494)
-        TextBox6.Name = "TextBox6"
-        TextBox6.PasswordChar = "*"c
-        TextBox6.Size = New Size(204, 27)
-        TextBox6.TabIndex = 25
-        ' 
-        ' TextBox7
-        ' 
-        TextBox7.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        TextBox7.ForeColor = SystemColors.Info
-        TextBox7.Location = New Point(332, 417)
-        TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(204, 27)
-        TextBox7.TabIndex = 24
-        ' 
-        ' TextBox8
-        ' 
-        TextBox8.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        TextBox8.ForeColor = SystemColors.Info
-        TextBox8.Location = New Point(31, 417)
-        TextBox8.Name = "TextBox8"
-        TextBox8.Size = New Size(204, 27)
-        TextBox8.TabIndex = 23
+        name_cc.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        name_cc.ForeColor = SystemColors.Info
+        name_cc.Location = New Point(31, 417)
+        name_cc.Name = "name_cc"
+        name_cc.Size = New Size(204, 27)
+        name_cc.TabIndex = 23
         ' 
         ' Label9
         ' 
@@ -308,48 +283,48 @@ Partial Class checkout_page
         Label12.TabIndex = 19
         Label12.Text = "Name on Card"
         ' 
-        ' TextBox3
+        ' postal_code
         ' 
-        TextBox3.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        TextBox3.ForeColor = SystemColors.Info
-        TextBox3.Location = New Point(332, 182)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(204, 27)
-        TextBox3.TabIndex = 18
+        postal_code.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        postal_code.ForeColor = SystemColors.Info
+        postal_code.Location = New Point(332, 198)
+        postal_code.Name = "postal_code"
+        postal_code.Size = New Size(204, 27)
+        postal_code.TabIndex = 18
         ' 
-        ' TextBox4
+        ' state
         ' 
-        TextBox4.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        TextBox4.ForeColor = SystemColors.Info
-        TextBox4.Location = New Point(31, 182)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(204, 27)
-        TextBox4.TabIndex = 17
+        state.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        state.ForeColor = SystemColors.Info
+        state.Location = New Point(31, 198)
+        state.Name = "state"
+        state.Size = New Size(204, 27)
+        state.TabIndex = 17
         ' 
-        ' TextBox2
+        ' addressLine1
         ' 
-        TextBox2.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        TextBox2.ForeColor = SystemColors.Info
-        TextBox2.Location = New Point(332, 105)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(204, 27)
-        TextBox2.TabIndex = 16
+        addressLine1.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        addressLine1.ForeColor = SystemColors.Info
+        addressLine1.Location = New Point(332, 105)
+        addressLine1.Name = "addressLine1"
+        addressLine1.Size = New Size(204, 27)
+        addressLine1.TabIndex = 16
         ' 
-        ' TextBox1
+        ' addressLine2
         ' 
-        TextBox1.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        TextBox1.ForeColor = SystemColors.Info
-        TextBox1.Location = New Point(31, 105)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(204, 27)
-        TextBox1.TabIndex = 15
+        addressLine2.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        addressLine2.ForeColor = SystemColors.Info
+        addressLine2.Location = New Point(332, 138)
+        addressLine2.Name = "addressLine2"
+        addressLine2.Size = New Size(204, 27)
+        addressLine2.TabIndex = 15
         ' 
         ' Label8
         ' 
         Label8.AutoSize = True
         Label8.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label8.ForeColor = SystemColors.ButtonHighlight
-        Label8.Location = New Point(332, 156)
+        Label8.Location = New Point(332, 172)
         Label8.Name = "Label8"
         Label8.Size = New Size(100, 23)
         Label8.TabIndex = 14
@@ -360,11 +335,11 @@ Partial Class checkout_page
         Label7.AutoSize = True
         Label7.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label7.ForeColor = SystemColors.ButtonHighlight
-        Label7.Location = New Point(31, 156)
+        Label7.Location = New Point(31, 172)
         Label7.Name = "Label7"
-        Label7.Size = New Size(71, 23)
+        Label7.Size = New Size(48, 23)
         Label7.TabIndex = 13
-        Label7.Text = "Disctrict"
+        Label7.Text = "State"
         ' 
         ' Label6
         ' 
@@ -373,9 +348,9 @@ Partial Class checkout_page
         Label6.ForeColor = SystemColors.ButtonHighlight
         Label6.Location = New Point(332, 79)
         Label6.Name = "Label6"
-        Label6.Size = New Size(48, 23)
+        Label6.Size = New Size(70, 23)
         Label6.TabIndex = 12
-        Label6.Text = "State"
+        Label6.Text = "Address"
         ' 
         ' Label5
         ' 
@@ -607,24 +582,23 @@ Partial Class checkout_page
         BunifuCards1.BottomSahddow = True
         BunifuCards1.BottomShadow = True
         BunifuCards1.color = Color.Transparent
+        BunifuCards1.Controls.Add(dtpExpiryDate)
+        BunifuCards1.Controls.Add(country)
         BunifuCards1.Controls.Add(IconPictureBox4)
         BunifuCards1.Controls.Add(IconPictureBox3)
         BunifuCards1.Controls.Add(IconPictureBox2)
         BunifuCards1.Controls.Add(IconPictureBox1)
-        BunifuCards1.Controls.Add(Label13)
-        BunifuCards1.Controls.Add(TextBox9)
-        BunifuCards1.Controls.Add(TextBox5)
-        BunifuCards1.Controls.Add(TextBox6)
-        BunifuCards1.Controls.Add(TextBox7)
-        BunifuCards1.Controls.Add(TextBox8)
+        BunifuCards1.Controls.Add(cvv_cc)
+        BunifuCards1.Controls.Add(number_cc)
+        BunifuCards1.Controls.Add(name_cc)
         BunifuCards1.Controls.Add(Label9)
         BunifuCards1.Controls.Add(Label10)
         BunifuCards1.Controls.Add(Label11)
         BunifuCards1.Controls.Add(Label12)
-        BunifuCards1.Controls.Add(TextBox3)
-        BunifuCards1.Controls.Add(TextBox4)
-        BunifuCards1.Controls.Add(TextBox2)
-        BunifuCards1.Controls.Add(TextBox1)
+        BunifuCards1.Controls.Add(postal_code)
+        BunifuCards1.Controls.Add(state)
+        BunifuCards1.Controls.Add(addressLine1)
+        BunifuCards1.Controls.Add(addressLine2)
         BunifuCards1.Controls.Add(Label8)
         BunifuCards1.Controls.Add(Label7)
         BunifuCards1.Controls.Add(Label6)
@@ -646,6 +620,29 @@ Partial Class checkout_page
         BunifuCards1.ShadowDepth = 20
         BunifuCards1.Size = New Size(644, 556)
         BunifuCards1.TabIndex = 2
+        ' 
+        ' dtpExpiryDate
+        ' 
+        dtpExpiryDate.CalendarMonthBackground = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        dtpExpiryDate.CalendarTitleBackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        dtpExpiryDate.CalendarTitleForeColor = Color.White
+        dtpExpiryDate.CustomFormat = "MM/yyyy"
+        dtpExpiryDate.Format = DateTimePickerFormat.Custom
+        dtpExpiryDate.Location = New Point(332, 494)
+        dtpExpiryDate.Name = "dtpExpiryDate"
+        dtpExpiryDate.Size = New Size(107, 27)
+        dtpExpiryDate.TabIndex = 104
+        ' 
+        ' country
+        ' 
+        country.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        country.ForeColor = SystemColors.InactiveBorder
+        country.FormattingEnabled = True
+        country.Items.AddRange(New Object() {"Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cabo Verde", "Cambodia", "Cameroon", "Canada", "Central African Republic", "Chad", "Chile", "China", "Colombia", "Comoros", "Congo", "Costa Rica", "Croatia", "Cuba", "Cyprus", "Czech Republic (Czechia)", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "East Timor (Timor-Leste)", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Eswatini", "Ethiopia", "Fiji", "Finland", "France", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Greece", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Israel", "Italy", "Ivory Coast", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Korea, North", "Korea, South", "Kosovo", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Mauritania", "Mauritius", "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Myanmar (Burma)", "Namibia", "Nauru", "Nepal", "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Macedonia (formerly Macedonia)", "Norway", "Oman", "Pakistan", "Palau", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Qatar", "Romania", "Russia", "Rwanda", "Saint Kitts and Nevis", "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Togo", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe"})
+        country.Location = New Point(31, 105)
+        country.Name = "country"
+        country.Size = New Size(204, 28)
+        country.TabIndex = 103
         ' 
         ' IconPictureBox5
         ' 
@@ -672,6 +669,22 @@ Partial Class checkout_page
         Label27.TabIndex = 61
         Label27.Text = "GO BACK"
         ' 
+        ' ErrorProvider1
+        ' 
+        ErrorProvider1.ContainerControl = Me
+        ' 
+        ' ErrorProvider2
+        ' 
+        ErrorProvider2.ContainerControl = Me
+        ' 
+        ' ErrorProvider3
+        ' 
+        ErrorProvider3.ContainerControl = Me
+        ' 
+        ' ErrorProvider4
+        ' 
+        ErrorProvider4.ContainerControl = Me
+        ' 
         ' checkout_page
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -697,6 +710,10 @@ Partial Class checkout_page
         BunifuCards1.ResumeLayout(False)
         BunifuCards1.PerformLayout()
         CType(IconPictureBox5, ComponentModel.ISupportInitialize).EndInit()
+        CType(ErrorProvider1, ComponentModel.ISupportInitialize).EndInit()
+        CType(ErrorProvider2, ComponentModel.ISupportInitialize).EndInit()
+        CType(ErrorProvider3, ComponentModel.ISupportInitialize).EndInit()
+        CType(ErrorProvider4, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -711,20 +728,17 @@ Partial Class checkout_page
     Friend WithEvents IconPictureBox3 As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents IconPictureBox2 As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents IconPictureBox1 As FontAwesome.Sharp.IconPictureBox
-    Friend WithEvents Label13 As Label
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents cvv_cc As TextBox
+    Friend WithEvents number_cc As TextBox
+    Friend WithEvents name_cc As TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents Label12 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents postal_code As TextBox
+    Friend WithEvents state As TextBox
+    Friend WithEvents addressLine1 As TextBox
+    Friend WithEvents addressLine2 As TextBox
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label6 As Label
@@ -747,4 +761,10 @@ Partial Class checkout_page
     Friend WithEvents BunifuCards1 As Bunifu.Framework.UI.BunifuCards
     Friend WithEvents IconPictureBox5 As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents Label27 As Label
+    Friend WithEvents country As ComboBox
+    Friend WithEvents ErrorProvider1 As ErrorProvider
+    Friend WithEvents ErrorProvider2 As ErrorProvider
+    Friend WithEvents ErrorProvider3 As ErrorProvider
+    Friend WithEvents ErrorProvider4 As ErrorProvider
+    Friend WithEvents dtpExpiryDate As DateTimePicker
 End Class

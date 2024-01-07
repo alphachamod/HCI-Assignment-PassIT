@@ -615,7 +615,7 @@ Partial Class available_bookings
         Controls.Add(Label5)
         Controls.Add(Label22)
         ForeColor = Color.Gold
-        FormBorderStyle = FormBorderStyle.None
+        FormBorderStyle = FormBorderStyle.FixedSingle
         Name = "available_bookings"
         StartPosition = FormStartPosition.CenterScreen
         Text = "BROWSE"

@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Panel1 = New Panel()
         PictureBox1 = New PictureBox()
@@ -29,21 +30,23 @@ Partial Class Form1
         Label6 = New Label()
         Label5 = New Label()
         IconPictureBox3 = New FontAwesome.Sharp.IconPictureBox()
-        IconButton1 = New FontAwesome.Sharp.IconButton()
+        btnLogin = New FontAwesome.Sharp.IconButton()
         IconPictureBox2 = New FontAwesome.Sharp.IconPictureBox()
         IconPictureBox1 = New FontAwesome.Sharp.IconPictureBox()
         Label3 = New Label()
         Label2 = New Label()
         Panel3 = New Panel()
         Label1 = New Label()
-        TextBox2 = New TextBox()
-        TextBox1 = New TextBox()
+        txtPassword = New TextBox()
+        txtUsername = New TextBox()
+        ErrorProvider1 = New ErrorProvider(components)
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Panel2.SuspendLayout()
         CType(IconPictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Panel3.SuspendLayout()
+        CType(ErrorProvider1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Panel1
@@ -72,14 +75,14 @@ Partial Class Form1
         Panel2.Controls.Add(Label6)
         Panel2.Controls.Add(Label5)
         Panel2.Controls.Add(IconPictureBox3)
-        Panel2.Controls.Add(IconButton1)
+        Panel2.Controls.Add(btnLogin)
         Panel2.Controls.Add(IconPictureBox2)
         Panel2.Controls.Add(IconPictureBox1)
         Panel2.Controls.Add(Label3)
         Panel2.Controls.Add(Label2)
         Panel2.Controls.Add(Panel3)
-        Panel2.Controls.Add(TextBox2)
-        Panel2.Controls.Add(TextBox1)
+        Panel2.Controls.Add(txtPassword)
+        Panel2.Controls.Add(txtUsername)
         Panel2.Dock = DockStyle.Fill
         Panel2.Location = New Point(941, 245)
         Panel2.Name = "Panel2"
@@ -118,22 +121,22 @@ Partial Class Form1
         IconPictureBox3.TabIndex = 9
         IconPictureBox3.TabStop = False
         ' 
-        ' IconButton1
+        ' btnLogin
         ' 
-        IconButton1.AutoSize = True
-        IconButton1.BackColor = Color.Gold
-        IconButton1.FlatStyle = FlatStyle.Flat
-        IconButton1.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        IconButton1.IconChar = FontAwesome.Sharp.IconChar.ArrowRight
-        IconButton1.IconColor = SystemColors.ActiveCaptionText
-        IconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconButton1.Location = New Point(95, 373)
-        IconButton1.Name = "IconButton1"
-        IconButton1.Size = New Size(351, 61)
-        IconButton1.TabIndex = 6
-        IconButton1.Text = "LOGIN"
-        IconButton1.TextImageRelation = TextImageRelation.TextBeforeImage
-        IconButton1.UseVisualStyleBackColor = False
+        btnLogin.AutoSize = True
+        btnLogin.BackColor = Color.Gold
+        btnLogin.FlatStyle = FlatStyle.Flat
+        btnLogin.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnLogin.IconChar = FontAwesome.Sharp.IconChar.ArrowRight
+        btnLogin.IconColor = SystemColors.ActiveCaptionText
+        btnLogin.IconFont = FontAwesome.Sharp.IconFont.Auto
+        btnLogin.Location = New Point(95, 373)
+        btnLogin.Name = "btnLogin"
+        btnLogin.Size = New Size(351, 61)
+        btnLogin.TabIndex = 6
+        btnLogin.Text = "LOGIN"
+        btnLogin.TextImageRelation = TextImageRelation.TextBeforeImage
+        btnLogin.UseVisualStyleBackColor = False
         ' 
         ' IconPictureBox2
         ' 
@@ -203,19 +206,24 @@ Partial Class Form1
         Label1.Text = "LOGIN"
         Label1.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' TextBox2
+        ' txtPassword
         ' 
-        TextBox2.Location = New Point(95, 283)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(351, 27)
-        TextBox2.TabIndex = 1
+        txtPassword.Location = New Point(95, 283)
+        txtPassword.Name = "txtPassword"
+        txtPassword.PasswordChar = "*"c
+        txtPassword.Size = New Size(351, 27)
+        txtPassword.TabIndex = 1
         ' 
-        ' TextBox1
+        ' txtUsername
         ' 
-        TextBox1.Location = New Point(95, 198)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(351, 27)
-        TextBox1.TabIndex = 0
+        txtUsername.Location = New Point(95, 198)
+        txtUsername.Name = "txtUsername"
+        txtUsername.Size = New Size(351, 27)
+        txtUsername.TabIndex = 0
+        ' 
+        ' ErrorProvider1
+        ' 
+        ErrorProvider1.ContainerControl = Me
         ' 
         ' Form1
         ' 
@@ -237,23 +245,25 @@ Partial Class Form1
         CType(IconPictureBox1, ComponentModel.ISupportInitialize).EndInit()
         Panel3.ResumeLayout(False)
         Panel3.PerformLayout()
+        CType(ErrorProvider1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtPassword As TextBox
+    Friend WithEvents txtUsername As TextBox
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents IconPictureBox2 As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents IconPictureBox1 As FontAwesome.Sharp.IconPictureBox
-    Friend WithEvents IconButton1 As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnLogin As FontAwesome.Sharp.IconButton
     Friend WithEvents Label5 As Label
     Friend WithEvents IconPictureBox3 As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents Label6 As Label
+    Friend WithEvents ErrorProvider1 As ErrorProvider
 
 End Class
