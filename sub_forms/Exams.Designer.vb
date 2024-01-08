@@ -33,17 +33,17 @@ Partial Class Exams
         lblAttempts = New Label()
         Label13 = New Label()
         BunifuCards2 = New Bunifu.Framework.UI.BunifuCards()
-        Label18 = New Label()
+        more_info_standard = New Label()
         Label2 = New Label()
         Label5 = New Label()
         Label8 = New Label()
         BunifuCards3 = New Bunifu.Framework.UI.BunifuCards()
-        Label15 = New Label()
+        more_info_passplus = New Label()
         Label3 = New Label()
         Label4 = New Label()
         Label6 = New Label()
         BunifuCards4 = New Bunifu.Framework.UI.BunifuCards()
-        Label16 = New Label()
+        more_info_drivingtest = New Label()
         Label9 = New Label()
         Label10 = New Label()
         Label14 = New Label()
@@ -178,7 +178,7 @@ Partial Class Exams
         BunifuCards2.BottomSahddow = True
         BunifuCards2.BottomShadow = True
         BunifuCards2.color = Color.FromArgb(CByte(64), CByte(64), CByte(64))
-        BunifuCards2.Controls.Add(Label18)
+        BunifuCards2.Controls.Add(more_info_standard)
         BunifuCards2.Controls.Add(Label2)
         BunifuCards2.Controls.Add(Label5)
         BunifuCards2.Controls.Add(Label8)
@@ -193,17 +193,17 @@ Partial Class Exams
         BunifuCards2.Size = New Size(941, 131)
         BunifuCards2.TabIndex = 115
         ' 
-        ' Label18
+        ' more_info_standard
         ' 
-        Label18.AutoSize = True
-        Label18.Cursor = Cursors.Hand
-        Label18.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label18.ForeColor = SystemColors.ButtonHighlight
-        Label18.Location = New Point(766, 57)
-        Label18.Name = "Label18"
-        Label18.Size = New Size(112, 23)
-        Label18.TabIndex = 119
-        Label18.Text = "More Details"
+        more_info_standard.AutoSize = True
+        more_info_standard.Cursor = Cursors.Hand
+        more_info_standard.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        more_info_standard.ForeColor = SystemColors.ButtonHighlight
+        more_info_standard.Location = New Point(766, 57)
+        more_info_standard.Name = "more_info_standard"
+        more_info_standard.Size = New Size(112, 23)
+        more_info_standard.TabIndex = 119
+        more_info_standard.Text = "More Details"
         ' 
         ' Label2
         ' 
@@ -245,7 +245,7 @@ Partial Class Exams
         BunifuCards3.BottomSahddow = True
         BunifuCards3.BottomShadow = True
         BunifuCards3.color = Color.FromArgb(CByte(64), CByte(64), CByte(64))
-        BunifuCards3.Controls.Add(Label15)
+        BunifuCards3.Controls.Add(more_info_passplus)
         BunifuCards3.Controls.Add(Label3)
         BunifuCards3.Controls.Add(Label4)
         BunifuCards3.Controls.Add(Label6)
@@ -260,17 +260,17 @@ Partial Class Exams
         BunifuCards3.Size = New Size(941, 131)
         BunifuCards3.TabIndex = 116
         ' 
-        ' Label15
+        ' more_info_passplus
         ' 
-        Label15.AutoSize = True
-        Label15.Cursor = Cursors.Hand
-        Label15.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label15.ForeColor = SystemColors.ButtonHighlight
-        Label15.Location = New Point(766, 52)
-        Label15.Name = "Label15"
-        Label15.Size = New Size(112, 23)
-        Label15.TabIndex = 120
-        Label15.Text = "More Details"
+        more_info_passplus.AutoSize = True
+        more_info_passplus.Cursor = Cursors.Hand
+        more_info_passplus.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        more_info_passplus.ForeColor = SystemColors.ButtonHighlight
+        more_info_passplus.Location = New Point(766, 52)
+        more_info_passplus.Name = "more_info_passplus"
+        more_info_passplus.Size = New Size(112, 23)
+        more_info_passplus.TabIndex = 120
+        more_info_passplus.Text = "More Details"
         ' 
         ' Label3
         ' 
@@ -312,7 +312,7 @@ Partial Class Exams
         BunifuCards4.BottomSahddow = True
         BunifuCards4.BottomShadow = True
         BunifuCards4.color = Color.FromArgb(CByte(64), CByte(64), CByte(64))
-        BunifuCards4.Controls.Add(Label16)
+        BunifuCards4.Controls.Add(more_info_drivingtest)
         BunifuCards4.Controls.Add(Label9)
         BunifuCards4.Controls.Add(Label10)
         BunifuCards4.Controls.Add(Label14)
@@ -327,17 +327,17 @@ Partial Class Exams
         BunifuCards4.Size = New Size(941, 131)
         BunifuCards4.TabIndex = 117
         ' 
-        ' Label16
+        ' more_info_drivingtest
         ' 
-        Label16.AutoSize = True
-        Label16.Cursor = Cursors.Hand
-        Label16.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label16.ForeColor = SystemColors.ButtonHighlight
-        Label16.Location = New Point(766, 52)
-        Label16.Name = "Label16"
-        Label16.Size = New Size(112, 23)
-        Label16.TabIndex = 121
-        Label16.Text = "More Details"
+        more_info_drivingtest.AutoSize = True
+        more_info_drivingtest.Cursor = Cursors.Hand
+        more_info_drivingtest.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        more_info_drivingtest.ForeColor = SystemColors.ButtonHighlight
+        more_info_drivingtest.Location = New Point(766, 52)
+        more_info_drivingtest.Name = "more_info_drivingtest"
+        more_info_drivingtest.Size = New Size(112, 23)
+        more_info_drivingtest.TabIndex = 121
+        more_info_drivingtest.Text = "More Details"
         ' 
         ' Label9
         ' 
@@ -423,7 +423,7 @@ Partial Class Exams
     Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label14 As Label
-    Friend WithEvents Label18 As Label
-    Friend WithEvents Label15 As Label
-    Friend WithEvents Label16 As Label
+    Friend WithEvents more_info_standard As Label
+    Friend WithEvents more_info_passplus As Label
+    Friend WithEvents more_info_drivingtest As Label
 End Class
