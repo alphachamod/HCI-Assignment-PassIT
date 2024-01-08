@@ -105,11 +105,11 @@ Partial Class Lessons
         ' Label22
         ' 
         Label22.AutoSize = True
-        Label22.Font = New Font("Segoe UI", 22.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label22.Font = New Font("Segoe UI Light", 25.8000011F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label22.ForeColor = SystemColors.ButtonHighlight
-        Label22.Location = New Point(21, 30)
+        Label22.Location = New Point(20, 23)
         Label22.Name = "Label22"
-        Label22.Size = New Size(357, 50)
+        Label22.Size = New Size(387, 60)
         Label22.TabIndex = 11
         Label22.Text = "LESSON PROGRESS"
         ' 
@@ -855,20 +855,20 @@ Partial Class Lessons
         ' Label35
         ' 
         Label35.AutoSize = True
-        Label35.Font = New Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label35.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label35.ForeColor = SystemColors.ButtonHighlight
-        Label35.Location = New Point(30, 79)
+        Label35.Location = New Point(30, 83)
         Label35.Name = "Label35"
-        Label35.Size = New Size(334, 31)
+        Label35.Size = New Size(239, 23)
         Label35.TabIndex = 86
         Label35.Text = "4 out of 35 Lessons Completed"
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(597, 48)
+        PictureBox1.Location = New Point(572, 48)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(436, 62)
+        PictureBox1.Size = New Size(482, 90)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox1.TabIndex = 93
         PictureBox1.TabStop = False
@@ -877,7 +877,7 @@ Partial Class Lessons
         ' 
         PictureBox2.BackColor = Color.Transparent
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(257, 116)
+        PictureBox2.Location = New Point(-19, 101)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(585, 37)
         PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
@@ -890,10 +890,10 @@ Partial Class Lessons
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(11), CByte(11), CByte(11))
         ClientSize = New Size(1081, 778)
+        Controls.Add(Label35)
         Controls.Add(PictureBox2)
         Controls.Add(Label22)
         Controls.Add(PictureBox1)
-        Controls.Add(Label35)
         Controls.Add(BunifuCards5)
         Controls.Add(BunifuCards2)
         Controls.Add(BunifuCards3)

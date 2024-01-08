@@ -44,6 +44,7 @@ Partial Class main_interface
         sidebarPanel = New Panel()
         btn_logout = New FontAwesome.Sharp.IconButton()
         Panel3 = New Panel()
+        PictureBox6 = New PictureBox()
         Label3 = New Label()
         IconPictureBox6 = New FontAwesome.Sharp.IconPictureBox()
         Label2 = New Label()
@@ -103,6 +104,7 @@ Partial Class main_interface
         CType(IconPictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox5, ComponentModel.ISupportInitialize).BeginInit()
         Panel3.SuspendLayout()
+        CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         CType(Current_Icon, ComponentModel.ISupportInitialize).BeginInit()
         sub_form.SuspendLayout()
@@ -416,6 +418,7 @@ Partial Class main_interface
         ' Panel3
         ' 
         Panel3.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        Panel3.Controls.Add(PictureBox6)
         Panel3.Controls.Add(Label3)
         Panel3.Controls.Add(IconPictureBox6)
         Panel3.Controls.Add(btn_logout)
@@ -427,6 +430,16 @@ Partial Class main_interface
         Panel3.Name = "Panel3"
         Panel3.Size = New Size(1081, 125)
         Panel3.TabIndex = 1
+        ' 
+        ' PictureBox6
+        ' 
+        PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), Image)
+        PictureBox6.Location = New Point(209, 35)
+        PictureBox6.Name = "PictureBox6"
+        PictureBox6.Size = New Size(415, 62)
+        PictureBox6.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox6.TabIndex = 8
+        PictureBox6.TabStop = False
         ' 
         ' Label3
         ' 
@@ -1110,6 +1123,7 @@ Partial Class main_interface
         CType(IconPictureBox5, ComponentModel.ISupportInitialize).EndInit()
         Panel3.ResumeLayout(False)
         Panel3.PerformLayout()
+        CType(PictureBox6, ComponentModel.ISupportInitialize).EndInit()
         CType(IconPictureBox6, ComponentModel.ISupportInitialize).EndInit()
         CType(Current_Icon, ComponentModel.ISupportInitialize).EndInit()
         sub_form.ResumeLayout(False)
@@ -1207,4 +1221,5 @@ Partial Class main_interface
     Friend WithEvents Label35 As Label
     Friend WithEvents Label36 As Label
     Friend WithEvents Label37 As Label
+    Friend WithEvents PictureBox6 As PictureBox
 End Class

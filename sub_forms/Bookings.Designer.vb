@@ -511,11 +511,11 @@ Partial Class Bookings
         ' Label22
         ' 
         Label22.AutoSize = True
-        Label22.Font = New Font("Segoe UI", 22.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label22.Font = New Font("Segoe UI Light", 22.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label22.ForeColor = SystemColors.ButtonHighlight
-        Label22.Location = New Point(24, 244)
+        Label22.Location = New Point(24, 241)
         Label22.Name = "Label22"
-        Label22.Size = New Size(393, 50)
+        Label22.Size = New Size(357, 50)
         Label22.TabIndex = 10
         Label22.Text = "CURRENT BOOKINGS"
         ' 
