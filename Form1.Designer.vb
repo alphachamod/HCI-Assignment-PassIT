@@ -234,6 +234,7 @@ Partial Class Form1
         Controls.Add(Panel2)
         Controls.Add(PictureBox1)
         Controls.Add(Panel1)
+        FormBorderStyle = FormBorderStyle.FixedSingle
         Name = "Form1"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Form1"

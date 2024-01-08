@@ -30,6 +30,7 @@
             'Navigate to the next form or perform other actions upon successful login
             Me.Hide()
             main_interface.Show()
+
         Else
             MessageBox.Show("Invalid username or password. Please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If

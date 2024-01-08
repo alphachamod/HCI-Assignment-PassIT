@@ -1,19 +1,9 @@
 ﻿Imports System.Net.NetworkInformation
 
 Public Class checkout_page
-    Private Sub Label27_Click(sender As Object, e As EventArgs) Handles Label27.Click
-        Me.Hide()
-    End Sub
 
-    Private Sub IconPictureBox5_Click(sender As Object, e As EventArgs) Handles IconPictureBox5.Click
-        Me.Hide()
-    End Sub
 
-    ' Function to check if a string is a valid two-digit number within a specified range
-    Private Function IsValidTwoDigitNumber(value As String, minValue As Integer, maxValue As Integer) As Boolean
-        Dim numericValue As Integer
-        Return Integer.TryParse(value, numericValue) AndAlso value.Length = 2 AndAlso numericValue >= minValue AndAlso numericValue <= maxValue
-    End Function
+
     Private Sub txtCardNumber_KeyPress(sender As Object, e As KeyPressEventArgs) Handles number_cc.KeyPress
         ' Allow only numeric input for the card number
         If Not Char.IsDigit(e.KeyChar) AndAlso Not Char.IsControl(e.KeyChar) Then
@@ -21,9 +11,6 @@ Public Class checkout_page
             MessageBox.Show("Only numbers are allowed in the Card Number field.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
         End If
     End Sub
-
-
-
 
 
 
@@ -58,14 +45,14 @@ Public Class checkout_page
 
         If String.IsNullOrEmpty(postal_code.Text) Then
             ' Display error message for Postal Code
-            errorProvider.SetError(postal_code, "State is required.")
+            errorProvider.SetError(postal_code, "Postal Code is required.")
         End If
 
 
 
         If String.IsNullOrEmpty(name_cc.Text) Then
             ' Display error message for Name on Card
-            errorProvider.SetError(name_cc, "Country is required.")
+            errorProvider.SetError(name_cc, "Name is required.")
         End If
 
 
@@ -122,6 +109,11 @@ Public Class checkout_page
 
     End Sub
 
+    Private Sub Label27_Click(sender As Object, e As EventArgs) Handles Label27.Click
+        Me.Hide()
+    End Sub
 
-
+    Private Sub IconPictureBox5_Click(sender As Object, e As EventArgs) Handles IconPictureBox5.Click
+        Me.Hide()
+    End Sub
 End Class

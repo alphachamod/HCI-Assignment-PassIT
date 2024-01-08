@@ -502,7 +502,7 @@ Partial Class available_bookings
         ' 
         Label28.AutoSize = True
         Label28.Font = New Font("Segoe UI Semilight", 13.8F, FontStyle.Strikeout, GraphicsUnit.Point, CByte(0))
-        Label28.ForeColor = SystemColors.AppWorkspace
+        Label28.ForeColor = Color.IndianRed
         Label28.Location = New Point(757, 155)
         Label28.Name = "Label28"
         Label28.Size = New Size(79, 31)
@@ -558,7 +558,7 @@ Partial Class available_bookings
         Label33.AutoSize = True
         Label33.BackColor = Color.Transparent
         Label33.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label33.ForeColor = SystemColors.ActiveCaption
+        Label33.ForeColor = Color.ForestGreen
         Label33.Location = New Point(846, 137)
         Label33.Name = "Label33"
         Label33.Size = New Size(57, 20)
