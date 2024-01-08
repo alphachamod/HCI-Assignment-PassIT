@@ -457,6 +457,7 @@ Partial Class lesson_details_start
         Controls.Add(TabControl1)
         Controls.Add(Label2)
         Controls.Add(Label27)
+        FormBorderStyle = FormBorderStyle.FixedSingle
         Name = "lesson_details_start"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Lessson Details"

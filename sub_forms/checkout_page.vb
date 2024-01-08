@@ -2,8 +2,6 @@
 
 Public Class checkout_page
 
-
-
     Private Sub txtCardNumber_KeyPress(sender As Object, e As KeyPressEventArgs) Handles number_cc.KeyPress
         ' Allow only numeric input for the card number
         If Not Char.IsDigit(e.KeyChar) AndAlso Not Char.IsControl(e.KeyChar) Then

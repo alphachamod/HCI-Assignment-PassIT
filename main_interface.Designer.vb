@@ -1082,6 +1082,7 @@ Partial Class main_interface
         Controls.Add(sub_form)
         Controls.Add(Panel3)
         Controls.Add(Panel1)
+        FormBorderStyle = FormBorderStyle.FixedSingle
         Name = "main_interface"
         StartPosition = FormStartPosition.CenterScreen
         Text = "PassIT - Driving School"

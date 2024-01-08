@@ -18,9 +18,10 @@ Public Class date_time
 
 
         ' Check if the required textboxes are empty
-        If String.IsNullOrEmpty(bookingtime.Text) Then
+        If bookingtime.SelectedItem Is Nothing Then
             ' Display error message for Time
             errorProvider.SetError(bookingtime, "Time is required.")
+            bookingtime.Focus()
         End If
 
 
@@ -40,4 +41,11 @@ Public Class date_time
 
     End Sub
 
+    Private Sub Label27_Click(sender As Object, e As EventArgs) Handles Label27.Click
+        Me.Hide()
+    End Sub
+
+    Private Sub IconPictureBox5_Click(sender As Object, e As EventArgs) Handles IconPictureBox5.Click
+        Me.Hide()
+    End Sub
 End Class

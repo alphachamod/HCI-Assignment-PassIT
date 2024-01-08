@@ -22,9 +22,17 @@ Partial Class Passplus
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Passplus"
+        SuspendLayout()
+        ' 
+        ' Passplus
+        ' 
+        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(11), CByte(11), CByte(11))
+        ClientSize = New Size(1081, 778)
+        FormBorderStyle = FormBorderStyle.None
+        Name = "Passplus"
+        Text = "Passplus"
+        ResumeLayout(False)
     End Sub
 End Class
