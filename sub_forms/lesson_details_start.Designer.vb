@@ -117,6 +117,7 @@ Partial Class lesson_details_start
         ' IconPictureBox5
         ' 
         IconPictureBox5.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox5.Cursor = Cursors.Hand
         IconPictureBox5.ForeColor = Color.Gainsboro
         IconPictureBox5.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromFile
         IconPictureBox5.IconColor = Color.Gainsboro
@@ -271,6 +272,7 @@ Partial Class lesson_details_start
         ' 
         TabControl1.Controls.Add(TabPage2)
         TabControl1.Controls.Add(TabPage1)
+        TabControl1.Cursor = Cursors.Hand
         TabControl1.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         TabControl1.Location = New Point(12, 94)
         TabControl1.Name = "TabControl1"
@@ -291,6 +293,7 @@ Partial Class lesson_details_start
         TabPage2.Controls.Add(Label1)
         TabPage2.Controls.Add(Label10)
         TabPage2.Controls.Add(PictureBox2)
+        TabPage2.Cursor = Cursors.Default
         TabPage2.Location = New Point(4, 32)
         TabPage2.Name = "TabPage2"
         TabPage2.Padding = New Padding(3)
@@ -385,6 +388,7 @@ Partial Class lesson_details_start
         TabPage1.Controls.Add(Label20)
         TabPage1.Controls.Add(Label21)
         TabPage1.Controls.Add(PictureBox1)
+        TabPage1.Cursor = Cursors.Default
         TabPage1.Location = New Point(4, 32)
         TabPage1.Name = "TabPage1"
         TabPage1.Padding = New Padding(3)
@@ -439,6 +443,7 @@ Partial Class lesson_details_start
         ' Label27
         ' 
         Label27.AutoSize = True
+        Label27.Cursor = Cursors.Hand
         Label27.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label27.ForeColor = SystemColors.ButtonHighlight
         Label27.Location = New Point(899, 32)

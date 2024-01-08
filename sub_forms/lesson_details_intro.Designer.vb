@@ -244,6 +244,7 @@ Partial Class lesson_details_intro
         ' IconPictureBox5
         ' 
         IconPictureBox5.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox5.Cursor = Cursors.Hand
         IconPictureBox5.ForeColor = Color.Gainsboro
         IconPictureBox5.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromFile
         IconPictureBox5.IconColor = Color.Gainsboro
@@ -258,6 +259,7 @@ Partial Class lesson_details_intro
         ' Label27
         ' 
         Label27.AutoSize = True
+        Label27.Cursor = Cursors.Hand
         Label27.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label27.ForeColor = SystemColors.ButtonHighlight
         Label27.Location = New Point(899, 42)
@@ -268,7 +270,7 @@ Partial Class lesson_details_intro
         ' 
         ' lesson_details_intro
         ' 
-        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
         ClientSize = New Size(1080, 576)

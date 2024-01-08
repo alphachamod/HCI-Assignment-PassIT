@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class date_time
+Partial Class eligibilty_confirmation
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,60 +22,37 @@ Partial Class date_time
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(date_time))
-        bookingdate = New DateTimePicker()
-        Label22 = New Label()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(eligibilty_confirmation))
+        Label29 = New Label()
         Label1 = New Label()
-        bookingtime = New ComboBox()
         BunifuFlatButton1 = New Bunifu.Framework.UI.BunifuFlatButton()
+        CheckedListBox1 = New CheckedListBox()
         IconPictureBox5 = New FontAwesome.Sharp.IconPictureBox()
         Label27 = New Label()
-        ErrorProvider1 = New ErrorProvider(components)
         CType(IconPictureBox5, ComponentModel.ISupportInitialize).BeginInit()
-        CType(ErrorProvider1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
-        ' bookingdate
+        ' Label29
         ' 
-        bookingdate.Cursor = Cursors.Hand
-        bookingdate.Format = DateTimePickerFormat.Short
-        bookingdate.Location = New Point(344, 91)
-        bookingdate.Name = "bookingdate"
-        bookingdate.Size = New Size(151, 27)
-        bookingdate.TabIndex = 0
-        ' 
-        ' Label22
-        ' 
-        Label22.AutoSize = True
-        Label22.Font = New Font("Segoe UI Light", 13.8F)
-        Label22.ForeColor = SystemColors.ButtonHighlight
-        Label22.Location = New Point(96, 89)
-        Label22.Name = "Label22"
-        Label22.Size = New Size(169, 31)
-        Label22.TabIndex = 12
-        Label22.Text = "Select your date"
+        Label29.AutoSize = True
+        Label29.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label29.ForeColor = SystemColors.ButtonHighlight
+        Label29.Location = New Point(30, 73)
+        Label29.Name = "Label29"
+        Label29.Size = New Size(545, 23)
+        Label29.TabIndex = 106
+        Label29.Text = "Please tick if you fulfil below conditions which are required to take the test"
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI Light", 13.8F)
+        Label1.Font = New Font("Segoe UI Light", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = SystemColors.ButtonHighlight
-        Label1.Location = New Point(96, 142)
+        Label1.Location = New Point(23, 27)
         Label1.Name = "Label1"
-        Label1.Size = New Size(218, 31)
-        Label1.TabIndex = 13
-        Label1.Text = "Select preferred time"
-        ' 
-        ' bookingtime
-        ' 
-        bookingtime.Cursor = Cursors.Hand
-        bookingtime.FormattingEnabled = True
-        bookingtime.Items.AddRange(New Object() {"08.30 AM", "09.30 AM", "10.30 AM", "11.30 AM", "12.30 PM", "12.45 PM", "01.30 PM", "02.30 PM", "03.30 PM", "04.30 PM", "05.30 PM"})
-        bookingtime.Location = New Point(344, 147)
-        bookingtime.Name = "bookingtime"
-        bookingtime.Size = New Size(151, 28)
-        bookingtime.TabIndex = 14
+        Label1.Size = New Size(278, 54)
+        Label1.TabIndex = 105
+        Label1.Text = "Eligibility Check"
         ' 
         ' BunifuFlatButton1
         ' 
@@ -84,7 +61,7 @@ Partial Class date_time
         BunifuFlatButton1.BackColor = Color.FromArgb(CByte(46), CByte(139), CByte(87))
         BunifuFlatButton1.BackgroundImageLayout = ImageLayout.Stretch
         BunifuFlatButton1.BorderRadius = 0
-        BunifuFlatButton1.ButtonText = "                   Checkout"
+        BunifuFlatButton1.ButtonText = "I Understand and Comtinue"
         BunifuFlatButton1.DisabledColor = Color.Gray
         BunifuFlatButton1.Iconcolor = Color.Transparent
         BunifuFlatButton1.Iconimage = CType(resources.GetObject("BunifuFlatButton1.Iconimage"), Image)
@@ -98,33 +75,45 @@ Partial Class date_time
         BunifuFlatButton1.IconVisible = True
         BunifuFlatButton1.IconZoom = 90R
         BunifuFlatButton1.IsTab = False
-        BunifuFlatButton1.Location = New Point(88, 198)
+        BunifuFlatButton1.Location = New Point(355, 330)
         BunifuFlatButton1.Margin = New Padding(4, 5, 4, 5)
         BunifuFlatButton1.Name = "BunifuFlatButton1"
         BunifuFlatButton1.Normalcolor = Color.FromArgb(CByte(46), CByte(139), CByte(87))
         BunifuFlatButton1.OnHovercolor = Color.FromArgb(CByte(36), CByte(129), CByte(77))
         BunifuFlatButton1.OnHoverTextColor = Color.White
         BunifuFlatButton1.selected = False
-        BunifuFlatButton1.Size = New Size(407, 69)
-        BunifuFlatButton1.TabIndex = 15
-        BunifuFlatButton1.Text = "                   Checkout"
+        BunifuFlatButton1.Size = New Size(401, 92)
+        BunifuFlatButton1.TabIndex = 104
+        BunifuFlatButton1.Text = "I Understand and Comtinue"
         BunifuFlatButton1.TextAlign = ContentAlignment.MiddleLeft
         BunifuFlatButton1.Textcolor = Color.White
         BunifuFlatButton1.TextFont = New Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         ' 
+        ' CheckedListBox1
+        ' 
+        CheckedListBox1.BackColor = Color.FromArgb(CByte(29), CByte(29), CByte(29))
+        CheckedListBox1.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        CheckedListBox1.ForeColor = SystemColors.ButtonHighlight
+        CheckedListBox1.FormattingEnabled = True
+        CheckedListBox1.Items.AddRange(New Object() {"Be at least 15 years and 9 months old", "Be able to read a number plate from 20 metres away", "Have been given permission to live in Great Britain for at least 185 days", "It costs £34 when you apply online"})
+        CheckedListBox1.Location = New Point(44, 153)
+        CheckedListBox1.Name = "CheckedListBox1"
+        CheckedListBox1.Size = New Size(712, 149)
+        CheckedListBox1.TabIndex = 103
+        ' 
         ' IconPictureBox5
         ' 
-        IconPictureBox5.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox5.BackColor = Color.Transparent
         IconPictureBox5.Cursor = Cursors.Hand
         IconPictureBox5.ForeColor = Color.Gainsboro
         IconPictureBox5.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromFile
         IconPictureBox5.IconColor = Color.Gainsboro
         IconPictureBox5.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox5.IconSize = 40
-        IconPictureBox5.Location = New Point(463, 23)
+        IconPictureBox5.Location = New Point(729, 24)
         IconPictureBox5.Name = "IconPictureBox5"
         IconPictureBox5.Size = New Size(40, 40)
-        IconPictureBox5.TabIndex = 62
+        IconPictureBox5.TabIndex = 108
         IconPictureBox5.TabStop = False
         ' 
         ' Label27
@@ -133,44 +122,37 @@ Partial Class date_time
         Label27.Cursor = Cursors.Hand
         Label27.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label27.ForeColor = SystemColors.ButtonHighlight
-        Label27.Location = New Point(344, 23)
+        Label27.Location = New Point(610, 27)
         Label27.Name = "Label27"
         Label27.Size = New Size(113, 31)
-        Label27.TabIndex = 61
+        Label27.TabIndex = 107
         Label27.Text = "GO BACK"
         ' 
-        ' ErrorProvider1
-        ' 
-        ErrorProvider1.ContainerControl = Me
-        ' 
-        ' date_time
+        ' eligibilty_confirmation
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
-        ClientSize = New Size(591, 301)
+        BackColor = Color.FromArgb(CByte(29), CByte(29), CByte(29))
+        ClientSize = New Size(800, 450)
         Controls.Add(IconPictureBox5)
         Controls.Add(Label27)
-        Controls.Add(BunifuFlatButton1)
-        Controls.Add(bookingtime)
+        Controls.Add(Label29)
         Controls.Add(Label1)
-        Controls.Add(Label22)
-        Controls.Add(bookingdate)
-        Name = "date_time"
+        Controls.Add(BunifuFlatButton1)
+        Controls.Add(CheckedListBox1)
+        FormBorderStyle = FormBorderStyle.None
+        Name = "eligibilty_confirmation"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Pick Date and Time"
+        Text = "Eligibility Confirmation"
         CType(IconPictureBox5, ComponentModel.ISupportInitialize).EndInit()
-        CType(ErrorProvider1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents bookingdate As DateTimePicker
-    Friend WithEvents Label22 As Label
+    Friend WithEvents Label29 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents bookingtime As ComboBox
     Friend WithEvents BunifuFlatButton1 As Bunifu.Framework.UI.BunifuFlatButton
+    Friend WithEvents CheckedListBox1 As CheckedListBox
     Friend WithEvents IconPictureBox5 As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents Label27 As Label
-    Friend WithEvents ErrorProvider1 As ErrorProvider
 End Class

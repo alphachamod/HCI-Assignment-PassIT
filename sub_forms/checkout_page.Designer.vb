@@ -214,6 +214,7 @@ Partial Class checkout_page
         ' cvv_cc
         ' 
         cvv_cc.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        cvv_cc.Cursor = Cursors.IBeam
         cvv_cc.ForeColor = SystemColors.Info
         cvv_cc.Location = New Point(31, 494)
         cvv_cc.Name = "cvv_cc"
@@ -224,6 +225,7 @@ Partial Class checkout_page
         ' number_cc
         ' 
         number_cc.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        number_cc.Cursor = Cursors.IBeam
         number_cc.ForeColor = SystemColors.Info
         number_cc.Location = New Point(332, 417)
         number_cc.Name = "number_cc"
@@ -233,6 +235,7 @@ Partial Class checkout_page
         ' name_cc
         ' 
         name_cc.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        name_cc.Cursor = Cursors.IBeam
         name_cc.ForeColor = SystemColors.Info
         name_cc.Location = New Point(31, 417)
         name_cc.Name = "name_cc"
@@ -286,6 +289,7 @@ Partial Class checkout_page
         ' postal_code
         ' 
         postal_code.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        postal_code.Cursor = Cursors.IBeam
         postal_code.ForeColor = SystemColors.Info
         postal_code.Location = New Point(332, 198)
         postal_code.Name = "postal_code"
@@ -295,6 +299,7 @@ Partial Class checkout_page
         ' state
         ' 
         state.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        state.Cursor = Cursors.IBeam
         state.ForeColor = SystemColors.Info
         state.Location = New Point(31, 198)
         state.Name = "state"
@@ -304,6 +309,7 @@ Partial Class checkout_page
         ' addressLine1
         ' 
         addressLine1.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        addressLine1.Cursor = Cursors.IBeam
         addressLine1.ForeColor = SystemColors.Info
         addressLine1.Location = New Point(332, 105)
         addressLine1.Name = "addressLine1"
@@ -313,6 +319,7 @@ Partial Class checkout_page
         ' addressLine2
         ' 
         addressLine2.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        addressLine2.Cursor = Cursors.IBeam
         addressLine2.ForeColor = SystemColors.Info
         addressLine2.Location = New Point(332, 138)
         addressLine2.Name = "addressLine2"
@@ -462,6 +469,7 @@ Partial Class checkout_page
         BunifuFlatButton1.BackgroundImageLayout = ImageLayout.Stretch
         BunifuFlatButton1.BorderRadius = 7
         BunifuFlatButton1.ButtonText = "      Pay Now"
+        BunifuFlatButton1.Cursor = Cursors.Hand
         BunifuFlatButton1.DisabledColor = Color.Gray
         BunifuFlatButton1.Iconcolor = Color.Transparent
         BunifuFlatButton1.Iconimage = CType(resources.GetObject("BunifuFlatButton1.Iconimage"), Image)
@@ -626,6 +634,7 @@ Partial Class checkout_page
         dtpExpiryDate.CalendarMonthBackground = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         dtpExpiryDate.CalendarTitleBackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         dtpExpiryDate.CalendarTitleForeColor = Color.White
+        dtpExpiryDate.Cursor = Cursors.Hand
         dtpExpiryDate.CustomFormat = "MM/yyyy"
         dtpExpiryDate.Format = DateTimePickerFormat.Custom
         dtpExpiryDate.Location = New Point(332, 494)
@@ -647,6 +656,7 @@ Partial Class checkout_page
         ' IconPictureBox5
         ' 
         IconPictureBox5.BackColor = Color.Transparent
+        IconPictureBox5.Cursor = Cursors.Hand
         IconPictureBox5.ForeColor = Color.Gainsboro
         IconPictureBox5.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromFile
         IconPictureBox5.IconColor = Color.Gainsboro
@@ -661,6 +671,7 @@ Partial Class checkout_page
         ' Label27
         ' 
         Label27.AutoSize = True
+        Label27.Cursor = Cursors.Hand
         Label27.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label27.ForeColor = SystemColors.ButtonHighlight
         Label27.Location = New Point(868, 21)

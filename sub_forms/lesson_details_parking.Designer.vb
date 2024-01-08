@@ -67,6 +67,7 @@ Partial Class lesson_details_parking
         ' Label27
         ' 
         Label27.AutoSize = True
+        Label27.Cursor = Cursors.Hand
         Label27.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label27.ForeColor = SystemColors.ButtonHighlight
         Label27.Location = New Point(899, 32)
@@ -172,6 +173,7 @@ Partial Class lesson_details_parking
         ' IconButton1
         ' 
         IconButton1.BackColor = Color.Orange
+        IconButton1.Cursor = Cursors.Hand
         IconButton1.IconChar = FontAwesome.Sharp.IconChar.RotateForward
         IconButton1.IconColor = Color.Black
         IconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto
@@ -370,6 +372,7 @@ Partial Class lesson_details_parking
         ' IconPictureBox5
         ' 
         IconPictureBox5.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox5.Cursor = Cursors.Hand
         IconPictureBox5.ForeColor = Color.Gainsboro
         IconPictureBox5.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromFile
         IconPictureBox5.IconColor = Color.Gainsboro

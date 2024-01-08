@@ -146,6 +146,7 @@ Partial Class available_bookings
         ' IconPictureBox3
         ' 
         IconPictureBox3.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox3.Cursor = Cursors.Hand
         IconPictureBox3.ForeColor = Color.Gold
         IconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.Redo
         IconPictureBox3.IconColor = Color.Gold
@@ -182,6 +183,7 @@ Partial Class available_bookings
         ' IconPictureBox1
         ' 
         IconPictureBox1.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox1.Cursor = Cursors.Hand
         IconPictureBox1.ForeColor = Color.LightGreen
         IconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.PlusSquare
         IconPictureBox1.IconColor = Color.LightGreen
@@ -240,6 +242,7 @@ Partial Class available_bookings
         ' IconPictureBox2
         ' 
         IconPictureBox2.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox2.Cursor = Cursors.Hand
         IconPictureBox2.ForeColor = Color.LightGreen
         IconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.PlusSquare
         IconPictureBox2.IconColor = Color.LightGreen
@@ -476,6 +479,7 @@ Partial Class available_bookings
         ' Label27
         ' 
         Label27.AutoSize = True
+        Label27.Cursor = Cursors.Hand
         Label27.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label27.ForeColor = SystemColors.ButtonHighlight
         Label27.Location = New Point(870, 43)
@@ -487,6 +491,7 @@ Partial Class available_bookings
         ' IconPictureBox5
         ' 
         IconPictureBox5.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox5.Cursor = Cursors.Hand
         IconPictureBox5.ForeColor = Color.Gainsboro
         IconPictureBox5.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromFile
         IconPictureBox5.IconColor = Color.Gainsboro

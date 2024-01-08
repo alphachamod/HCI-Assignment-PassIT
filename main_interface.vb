@@ -138,7 +138,7 @@ Public Class main_interface
 
     Private Sub btn_passplus_Click(sender As Object, e As EventArgs) Handles btn_passplus.Click
         ActivateButton(sender)
-        OpenChildForm(Passplus)
+        OpenChildForm(Exams)
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click

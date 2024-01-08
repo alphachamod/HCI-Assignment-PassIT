@@ -163,6 +163,7 @@ Partial Class main_interface
         ' 
         Label8.AutoSize = True
         Label8.BackColor = Color.FromArgb(CByte(18), CByte(18), CByte(18))
+        Label8.Cursor = Cursors.Hand
         Label8.Font = New Font("Tw Cen MT", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label8.ForeColor = SystemColors.ButtonHighlight
         Label8.Location = New Point(84, 853)
@@ -175,6 +176,7 @@ Partial Class main_interface
         ' 
         Label7.AutoSize = True
         Label7.BackColor = Color.FromArgb(CByte(18), CByte(18), CByte(18))
+        Label7.Cursor = Cursors.Hand
         Label7.Font = New Font("Tw Cen MT", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label7.ForeColor = SystemColors.ButtonHighlight
         Label7.Location = New Point(83, 816)
@@ -187,6 +189,7 @@ Partial Class main_interface
         ' 
         Label6.AutoSize = True
         Label6.BackColor = Color.FromArgb(CByte(18), CByte(18), CByte(18))
+        Label6.Cursor = Cursors.Hand
         Label6.Font = New Font("Tw Cen MT", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = SystemColors.ButtonHighlight
         Label6.Location = New Point(83, 777)
@@ -236,8 +239,9 @@ Partial Class main_interface
         ' btn_passplus
         ' 
         btn_passplus.BackColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
+        btn_passplus.Cursor = Cursors.Hand
         btn_passplus.FlatStyle = FlatStyle.Flat
-        btn_passplus.IconChar = FontAwesome.Sharp.IconChar.Medal
+        btn_passplus.IconChar = FontAwesome.Sharp.IconChar.BarChart
         btn_passplus.IconColor = Color.Black
         btn_passplus.IconFont = FontAwesome.Sharp.IconFont.Auto
         btn_passplus.IconSize = 45
@@ -245,13 +249,14 @@ Partial Class main_interface
         btn_passplus.Name = "btn_passplus"
         btn_passplus.Size = New Size(259, 61)
         btn_passplus.TabIndex = 5
-        btn_passplus.Text = "®PassPlus"
+        btn_passplus.Text = "EXAMS"
         btn_passplus.TextImageRelation = TextImageRelation.ImageBeforeText
         btn_passplus.UseVisualStyleBackColor = False
         ' 
         ' btn_instructors
         ' 
         btn_instructors.BackColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
+        btn_instructors.Cursor = Cursors.Hand
         btn_instructors.FlatStyle = FlatStyle.Flat
         btn_instructors.IconChar = FontAwesome.Sharp.IconChar.PeopleGroup
         btn_instructors.IconColor = Color.Black
@@ -268,6 +273,7 @@ Partial Class main_interface
         ' btn_lessons
         ' 
         btn_lessons.BackColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
+        btn_lessons.Cursor = Cursors.Hand
         btn_lessons.FlatStyle = FlatStyle.Flat
         btn_lessons.IconChar = FontAwesome.Sharp.IconChar.CarRear
         btn_lessons.IconColor = Color.Black
@@ -284,6 +290,7 @@ Partial Class main_interface
         ' btn_book
         ' 
         btn_book.BackColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
+        btn_book.Cursor = Cursors.Hand
         btn_book.FlatStyle = FlatStyle.Flat
         btn_book.IconChar = FontAwesome.Sharp.IconChar.CalendarAlt
         btn_book.IconColor = Color.Black
@@ -300,6 +307,7 @@ Partial Class main_interface
         ' btn_profile
         ' 
         btn_profile.BackColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
+        btn_profile.Cursor = Cursors.Hand
         btn_profile.FlatStyle = FlatStyle.Flat
         btn_profile.IconChar = FontAwesome.Sharp.IconChar.UserCog
         btn_profile.IconColor = Color.Black
@@ -336,6 +344,7 @@ Partial Class main_interface
         ' IconPictureBox3
         ' 
         IconPictureBox3.BackColor = Color.FromArgb(CByte(18), CByte(18), CByte(18))
+        IconPictureBox3.Cursor = Cursors.Hand
         IconPictureBox3.ForeColor = SystemColors.ButtonHighlight
         IconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.Phone
         IconPictureBox3.IconColor = SystemColors.ButtonHighlight
@@ -350,6 +359,7 @@ Partial Class main_interface
         ' IconPictureBox4
         ' 
         IconPictureBox4.BackColor = Color.FromArgb(CByte(18), CByte(18), CByte(18))
+        IconPictureBox4.Cursor = Cursors.Hand
         IconPictureBox4.ForeColor = SystemColors.ButtonHighlight
         IconPictureBox4.IconChar = FontAwesome.Sharp.IconChar.EnvelopeOpen
         IconPictureBox4.IconColor = SystemColors.ButtonHighlight
@@ -364,6 +374,7 @@ Partial Class main_interface
         ' IconPictureBox5
         ' 
         IconPictureBox5.BackColor = Color.FromArgb(CByte(18), CByte(18), CByte(18))
+        IconPictureBox5.Cursor = Cursors.Hand
         IconPictureBox5.ForeColor = SystemColors.ButtonHighlight
         IconPictureBox5.IconChar = FontAwesome.Sharp.IconChar.MailBulk
         IconPictureBox5.IconColor = SystemColors.ButtonHighlight
@@ -387,6 +398,7 @@ Partial Class main_interface
         ' btn_logout
         ' 
         btn_logout.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        btn_logout.Cursor = Cursors.Hand
         btn_logout.FlatStyle = FlatStyle.Flat
         btn_logout.ForeColor = SystemColors.ButtonHighlight
         btn_logout.IconChar = FontAwesome.Sharp.IconChar.PowerOff
@@ -430,6 +442,7 @@ Partial Class main_interface
         ' IconPictureBox6
         ' 
         IconPictureBox6.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        IconPictureBox6.Cursor = Cursors.Hand
         IconPictureBox6.ForeColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))
         IconPictureBox6.IconChar = FontAwesome.Sharp.IconChar.Gear
         IconPictureBox6.IconColor = Color.FromArgb(CByte(241), CByte(196), CByte(15))

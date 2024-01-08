@@ -256,6 +256,7 @@ Partial Class Bookings
         ' IconPictureBox7
         ' 
         IconPictureBox7.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox7.Cursor = Cursors.Hand
         IconPictureBox7.ForeColor = Color.IndianRed
         IconPictureBox7.IconChar = FontAwesome.Sharp.IconChar.Cancel
         IconPictureBox7.IconColor = Color.IndianRed
@@ -270,6 +271,7 @@ Partial Class Bookings
         ' IconPictureBox8
         ' 
         IconPictureBox8.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox8.Cursor = Cursors.Hand
         IconPictureBox8.ForeColor = Color.BurlyWood
         IconPictureBox8.IconChar = FontAwesome.Sharp.IconChar.PenToSquare
         IconPictureBox8.IconColor = Color.BurlyWood
@@ -339,6 +341,7 @@ Partial Class Bookings
         ' IconPictureBox5
         ' 
         IconPictureBox5.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox5.Cursor = Cursors.Hand
         IconPictureBox5.ForeColor = Color.IndianRed
         IconPictureBox5.IconChar = FontAwesome.Sharp.IconChar.Cancel
         IconPictureBox5.IconColor = Color.IndianRed
@@ -353,6 +356,7 @@ Partial Class Bookings
         ' IconPictureBox6
         ' 
         IconPictureBox6.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox6.Cursor = Cursors.Hand
         IconPictureBox6.ForeColor = Color.BurlyWood
         IconPictureBox6.IconChar = FontAwesome.Sharp.IconChar.PenToSquare
         IconPictureBox6.IconColor = Color.BurlyWood
@@ -422,6 +426,7 @@ Partial Class Bookings
         ' IconPictureBox4
         ' 
         IconPictureBox4.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox4.Cursor = Cursors.Hand
         IconPictureBox4.ForeColor = Color.IndianRed
         IconPictureBox4.IconChar = FontAwesome.Sharp.IconChar.Cancel
         IconPictureBox4.IconColor = Color.IndianRed
@@ -436,6 +441,7 @@ Partial Class Bookings
         ' IconPictureBox3
         ' 
         IconPictureBox3.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox3.Cursor = Cursors.Hand
         IconPictureBox3.ForeColor = Color.BurlyWood
         IconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.PenToSquare
         IconPictureBox3.IconColor = Color.BurlyWood

@@ -22,9 +22,17 @@ Partial Class Instructors
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Instructors"
+        SuspendLayout()
+        ' 
+        ' Instructors
+        ' 
+        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(11), CByte(11), CByte(11))
+        ClientSize = New Size(1081, 778)
+        FormBorderStyle = FormBorderStyle.None
+        Name = "Instructors"
+        Text = "Instructors"
+        ResumeLayout(False)
     End Sub
 End Class
