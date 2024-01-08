@@ -706,6 +706,7 @@ Partial Class checkout_page
         Controls.Add(Label27)
         Controls.Add(BunifuCards2)
         Controls.Add(BunifuCards1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "checkout_page"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Checkout"

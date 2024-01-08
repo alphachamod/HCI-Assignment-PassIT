@@ -278,6 +278,7 @@ Partial Class lesson_details_intro
         Controls.Add(Label27)
         Controls.Add(Label2)
         Controls.Add(TabControl1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "lesson_details_intro"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Lesson Details"

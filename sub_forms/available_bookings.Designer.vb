@@ -621,6 +621,7 @@ Partial Class available_bookings
         Controls.Add(Label22)
         ForeColor = Color.Gold
         FormBorderStyle = FormBorderStyle.FixedSingle
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "available_bookings"
         StartPosition = FormStartPosition.CenterScreen
         Text = "BROWSE"

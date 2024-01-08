@@ -156,6 +156,7 @@ Partial Class date_time
         Controls.Add(Label1)
         Controls.Add(Label22)
         Controls.Add(bookingdate)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "date_time"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Pick Date and Time"

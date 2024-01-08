@@ -293,7 +293,6 @@ Partial Class lesson_details_start
         TabPage2.Controls.Add(Label1)
         TabPage2.Controls.Add(Label10)
         TabPage2.Controls.Add(PictureBox2)
-        TabPage2.Cursor = Cursors.Default
         TabPage2.Location = New Point(4, 32)
         TabPage2.Name = "TabPage2"
         TabPage2.Padding = New Padding(3)
@@ -388,7 +387,6 @@ Partial Class lesson_details_start
         TabPage1.Controls.Add(Label20)
         TabPage1.Controls.Add(Label21)
         TabPage1.Controls.Add(PictureBox1)
-        TabPage1.Cursor = Cursors.Default
         TabPage1.Location = New Point(4, 32)
         TabPage1.Name = "TabPage1"
         TabPage1.Padding = New Padding(3)
@@ -463,6 +461,7 @@ Partial Class lesson_details_start
         Controls.Add(Label2)
         Controls.Add(Label27)
         FormBorderStyle = FormBorderStyle.FixedSingle
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "lesson_details_start"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Lessson Details"

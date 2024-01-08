@@ -458,6 +458,7 @@ Partial Class lesson_details_parking
         Controls.Add(Label2)
         Controls.Add(IconPictureBox5)
         Controls.Add(TabControl1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "lesson_details_parking"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Lesson Details"

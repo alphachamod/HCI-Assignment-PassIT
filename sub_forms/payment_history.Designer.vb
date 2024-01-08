@@ -267,6 +267,7 @@ Partial Class payment_history
         Controls.Add(Label32)
         Controls.Add(Label20)
         FormBorderStyle = FormBorderStyle.FixedSingle
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "payment_history"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Payment History"

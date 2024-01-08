@@ -1109,6 +1109,7 @@ Partial Class main_interface
         Controls.Add(Panel3)
         Controls.Add(Panel1)
         FormBorderStyle = FormBorderStyle.FixedSingle
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "main_interface"
         StartPosition = FormStartPosition.CenterScreen
         Text = "PassIT - Driving School"
