@@ -1,7 +1,8 @@
-﻿Public Class eligibilty_confirmation
+﻿Imports System.Diagnostics
+Public Class eligibilty_confirmation
 
     Private Sub BunifuFlatButton1_Click(sender As Object, e As EventArgs) Handles BunifuFlatButton1.Click
-        If AreAllItemsChecked() Then
+        If AllItemsChecked(CheckedListBox1) Then
             Dim url As String = "https://apply-provisional-driving-licence.service.gov.uk"
 
             ' Use ProcessStartInfo to specify that the URL is not a file path
@@ -15,18 +16,18 @@
             Me.Hide()
 
         Else
-            MessageBox.Show("Please check you meet all the conditions before proceeding")
+            MessageBox.Show("Please check that you meet all the conditions before proceeding")
         End If
     End Sub
 
-    Private Function AreAllItemsChecked() As Boolean
-        ' Check if all items in the CheckedListBox are checked
-        For Each itemIndex As Integer In CheckedListBox1.CheckedIndices
-            If Not CheckedListBox1.GetItemChecked(itemIndex) Then
+
+    Private Function AllItemsChecked(checkedListBox As CheckedListBox) As Boolean
+        For Each itemIndex As Integer In Enumerable.Range(0, checkedListBox.Items.Count)
+            If Not checkedListBox.GetItemChecked(itemIndex) Then
                 Return False
             End If
         Next
-        Return CheckedListBox1.CheckedIndices.Count > 0
+        Return True
     End Function
 
     Private Sub Label27_Click(sender As Object, e As EventArgs) Handles Label27.Click
