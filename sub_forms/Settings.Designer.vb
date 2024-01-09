@@ -392,7 +392,7 @@ Partial Class Settings
         Label18.Cursor = Cursors.Hand
         Label18.Font = New Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label18.ForeColor = SystemColors.ButtonHighlight
-        Label18.Location = New Point(711, 212)
+        Label18.Location = New Point(712, 212)
         Label18.Name = "Label18"
         Label18.Size = New Size(77, 28)
         Label18.TabIndex = 40
