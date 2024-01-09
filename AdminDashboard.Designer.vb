@@ -288,6 +288,7 @@ Partial Class AdminDashboard
         ' 
         ' Panel3
         ' 
+        Panel3.BackColor = Color.FromArgb(CByte(242), CByte(246), CByte(255))
         Panel3.Controls.Add(BunifuFlatButton1)
         Panel3.Controls.Add(Label4)
         Panel3.Controls.Add(Label3)
