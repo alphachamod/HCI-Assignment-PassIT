@@ -158,7 +158,8 @@ Public Class main_interface
     End Sub
 
     Private Sub btn_logout_Click(sender As Object, e As EventArgs) Handles btn_logout.Click
-        Application.Exit()
+        Me.Hide()
+        Form1.Show()
     End Sub
 
 
