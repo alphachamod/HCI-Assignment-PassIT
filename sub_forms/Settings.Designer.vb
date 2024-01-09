@@ -181,7 +181,7 @@ Partial Class Settings
         Label10.AutoSize = True
         Label10.Font = New Font("Segoe UI Light", 22.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label10.ForeColor = SystemColors.ButtonHighlight
-        Label10.Location = New Point(58, 544)
+        Label10.Location = New Point(46, 544)
         Label10.Name = "Label10"
         Label10.Size = New Size(328, 50)
         Label10.TabIndex = 22
@@ -192,7 +192,7 @@ Partial Class Settings
         Label11.AutoSize = True
         Label11.Font = New Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label11.ForeColor = SystemColors.ButtonHighlight
-        Label11.Location = New Point(68, 612)
+        Label11.Location = New Point(56, 612)
         Label11.Name = "Label11"
         Label11.Size = New Size(165, 28)
         Label11.TabIndex = 23
@@ -204,7 +204,7 @@ Partial Class Settings
         Label12.Cursor = Cursors.Hand
         Label12.Font = New Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label12.ForeColor = SystemColors.ButtonHighlight
-        Label12.Location = New Point(68, 647)
+        Label12.Location = New Point(56, 647)
         Label12.Name = "Label12"
         Label12.Size = New Size(119, 28)
         Label12.TabIndex = 24
@@ -380,7 +380,7 @@ Partial Class Settings
         ComboBox6.ForeColor = SystemColors.ButtonHighlight
         ComboBox6.FormattingEnabled = True
         ComboBox6.Items.AddRange(New Object() {"Hourly", "Weekly", "Monthly", "Never"})
-        ComboBox6.Location = New Point(306, 616)
+        ComboBox6.Location = New Point(294, 616)
         ComboBox6.Name = "ComboBox6"
         ComboBox6.Size = New Size(151, 28)
         ComboBox6.TabIndex = 39
@@ -461,7 +461,7 @@ Partial Class Settings
         Label23.Cursor = Cursors.Hand
         Label23.Font = New Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label23.ForeColor = SystemColors.ButtonHighlight
-        Label23.Location = New Point(68, 681)
+        Label23.Location = New Point(56, 681)
         Label23.Name = "Label23"
         Label23.Size = New Size(215, 28)
         Label23.TabIndex = 46
