@@ -121,11 +121,16 @@ Public Class AdminDashboard
     End Sub
 
     Private Sub btn_logout_Click(sender As Object, e As EventArgs) Handles btn_logout.Click
-        Application.Exit()
+        Me.Close()
+        Form1.Show()
     End Sub
 
     Private Sub IconButton1_Click(sender As Object, e As EventArgs) Handles IconButton1.Click
         ActivateButton(sender)
         OpenChildForm(adminVehicle)
+    End Sub
+
+    Private Sub BunifuFlatButton1_Click(sender As Object, e As EventArgs) Handles BunifuFlatButton1.Click
+        OpenChildForm(adminOverview)
     End Sub
 End Class

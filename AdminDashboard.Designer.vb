@@ -30,6 +30,7 @@ Partial Class AdminDashboard
         btn_book = New FontAwesome.Sharp.IconButton()
         btn_profile = New FontAwesome.Sharp.IconButton()
         sidebarPanel = New Panel()
+        IconButton1 = New FontAwesome.Sharp.IconButton()
         Panel2 = New Panel()
         Label2 = New Label()
         Label1 = New Label()
@@ -43,7 +44,6 @@ Partial Class AdminDashboard
         Label4 = New Label()
         Label3 = New Label()
         Panel1 = New Panel()
-        IconButton1 = New FontAwesome.Sharp.IconButton()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         sidebarPanel.SuspendLayout()
         Panel2.SuspendLayout()
@@ -170,6 +170,24 @@ Partial Class AdminDashboard
         sidebarPanel.Name = "sidebarPanel"
         sidebarPanel.Size = New Size(401, 903)
         sidebarPanel.TabIndex = 26
+        ' 
+        ' IconButton1
+        ' 
+        IconButton1.BackColor = Color.FromArgb(CByte(31), CByte(40), CByte(51))
+        IconButton1.Cursor = Cursors.Hand
+        IconButton1.FlatStyle = FlatStyle.Flat
+        IconButton1.ForeColor = SystemColors.ButtonHighlight
+        IconButton1.IconChar = FontAwesome.Sharp.IconChar.CarOn
+        IconButton1.IconColor = Color.White
+        IconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconButton1.IconSize = 45
+        IconButton1.Location = New Point(66, 615)
+        IconButton1.Name = "IconButton1"
+        IconButton1.Size = New Size(259, 61)
+        IconButton1.TabIndex = 26
+        IconButton1.Text = "VEHICLE INFO"
+        IconButton1.TextImageRelation = TextImageRelation.ImageBeforeText
+        IconButton1.UseVisualStyleBackColor = False
         ' 
         ' Panel2
         ' 
@@ -348,24 +366,6 @@ Partial Class AdminDashboard
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(1081, 101)
         Panel1.TabIndex = 0
-        ' 
-        ' IconButton1
-        ' 
-        IconButton1.BackColor = Color.FromArgb(CByte(31), CByte(40), CByte(51))
-        IconButton1.Cursor = Cursors.Hand
-        IconButton1.FlatStyle = FlatStyle.Flat
-        IconButton1.ForeColor = SystemColors.ButtonHighlight
-        IconButton1.IconChar = FontAwesome.Sharp.IconChar.CarOn
-        IconButton1.IconColor = Color.White
-        IconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconButton1.IconSize = 45
-        IconButton1.Location = New Point(66, 615)
-        IconButton1.Name = "IconButton1"
-        IconButton1.Size = New Size(259, 61)
-        IconButton1.TabIndex = 26
-        IconButton1.Text = "VEHICLE INFO"
-        IconButton1.TextImageRelation = TextImageRelation.ImageBeforeText
-        IconButton1.UseVisualStyleBackColor = False
         ' 
         ' AdminDashboard
         ' 

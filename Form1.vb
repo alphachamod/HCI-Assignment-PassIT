@@ -30,6 +30,7 @@
         ElseIf username.ToLower() = "admin" AndAlso password = "admin" Then
             ' Redirect to adminDashboard.vb
             Dim adminDashboardForm As New AdminDashboard()
+            MessageBox.Show("Admin Login Detected.", "Admin Login", MessageBoxButtons.OK, MessageBoxIcon.Information)
             adminDashboardForm.Show()
             Me.Hide()
         Else
