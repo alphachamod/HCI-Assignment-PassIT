@@ -52,6 +52,10 @@ Partial Class adminOverview
         Label14 = New Label()
         Label15 = New Label()
         BunifuCards5 = New Bunifu.Framework.UI.BunifuCards()
+        PictureBox13 = New PictureBox()
+        PictureBox12 = New PictureBox()
+        Label23 = New Label()
+        Label25 = New Label()
         PictureBox11 = New PictureBox()
         Label21 = New Label()
         Label22 = New Label()
@@ -62,10 +66,6 @@ Partial Class adminOverview
         Label17 = New Label()
         Label16 = New Label()
         Label18 = New Label()
-        PictureBox12 = New PictureBox()
-        Label23 = New Label()
-        Label25 = New Label()
-        PictureBox13 = New PictureBox()
         BunifuCards1.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         BunifuCards2.SuspendLayout()
@@ -79,11 +79,11 @@ Partial Class adminOverview
         CType(PictureBox8, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox7, ComponentModel.ISupportInitialize).BeginInit()
         BunifuCards5.SuspendLayout()
+        CType(PictureBox13, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox12, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox10, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox9, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox12, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox13, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' BunifuCards1
@@ -466,6 +466,47 @@ Partial Class adminOverview
         BunifuCards5.Size = New Size(1045, 226)
         BunifuCards5.TabIndex = 7
         ' 
+        ' PictureBox13
+        ' 
+        PictureBox13.Image = CType(resources.GetObject("PictureBox13.Image"), Image)
+        PictureBox13.Location = New Point(113, 64)
+        PictureBox13.Name = "PictureBox13"
+        PictureBox13.Size = New Size(125, 62)
+        PictureBox13.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox13.TabIndex = 7
+        PictureBox13.TabStop = False
+        ' 
+        ' PictureBox12
+        ' 
+        PictureBox12.Image = CType(resources.GetObject("PictureBox12.Image"), Image)
+        PictureBox12.Location = New Point(735, 64)
+        PictureBox12.Name = "PictureBox12"
+        PictureBox12.Size = New Size(36, 47)
+        PictureBox12.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox12.TabIndex = 13
+        PictureBox12.TabStop = False
+        ' 
+        ' Label23
+        ' 
+        Label23.AutoSize = True
+        Label23.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
+        Label23.ForeColor = Color.LimeGreen
+        Label23.Location = New Point(787, 83)
+        Label23.Name = "Label23"
+        Label23.Size = New Size(111, 20)
+        Label23.TabIndex = 12
+        Label23.Text = "89% Pass Rate"
+        ' 
+        ' Label25
+        ' 
+        Label25.AutoSize = True
+        Label25.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label25.Location = New Point(787, 55)
+        Label25.Name = "Label25"
+        Label25.Size = New Size(177, 28)
+        Label25.TabIndex = 11
+        Label25.Text = "Average Pass Rate"
+        ' 
         ' PictureBox11
         ' 
         PictureBox11.Image = CType(resources.GetObject("PictureBox11.Image"), Image)
@@ -569,47 +610,6 @@ Partial Class adminOverview
         Label18.TabIndex = 1
         Label18.Text = "DVSA Standards Check"
         ' 
-        ' PictureBox12
-        ' 
-        PictureBox12.Image = CType(resources.GetObject("PictureBox12.Image"), Image)
-        PictureBox12.Location = New Point(735, 64)
-        PictureBox12.Name = "PictureBox12"
-        PictureBox12.Size = New Size(36, 47)
-        PictureBox12.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox12.TabIndex = 13
-        PictureBox12.TabStop = False
-        ' 
-        ' Label23
-        ' 
-        Label23.AutoSize = True
-        Label23.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label23.ForeColor = Color.LimeGreen
-        Label23.Location = New Point(787, 83)
-        Label23.Name = "Label23"
-        Label23.Size = New Size(111, 20)
-        Label23.TabIndex = 12
-        Label23.Text = "89% Pass Rate"
-        ' 
-        ' Label25
-        ' 
-        Label25.AutoSize = True
-        Label25.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label25.Location = New Point(787, 55)
-        Label25.Name = "Label25"
-        Label25.Size = New Size(177, 28)
-        Label25.TabIndex = 11
-        Label25.Text = "Average Pass Rate"
-        ' 
-        ' PictureBox13
-        ' 
-        PictureBox13.Image = CType(resources.GetObject("PictureBox13.Image"), Image)
-        PictureBox13.Location = New Point(113, 64)
-        PictureBox13.Name = "PictureBox13"
-        PictureBox13.Size = New Size(125, 62)
-        PictureBox13.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox13.TabIndex = 7
-        PictureBox13.TabStop = False
-        ' 
         ' adminOverview
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -642,11 +642,11 @@ Partial Class adminOverview
         CType(PictureBox7, ComponentModel.ISupportInitialize).EndInit()
         BunifuCards5.ResumeLayout(False)
         BunifuCards5.PerformLayout()
+        CType(PictureBox13, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox12, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox11, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox10, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox9, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox12, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox13, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
