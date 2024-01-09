@@ -133,7 +133,7 @@ Public Class main_interface
 
     Private Sub btn_instructors_Click(sender As Object, e As EventArgs) Handles btn_instructors.Click
         ActivateButton(sender)
-        OpenChildForm(Instructors)
+        OpenChildForm(staff)
     End Sub
 
     Private Sub btn_passplus_Click(sender As Object, e As EventArgs) Handles btn_passplus.Click
