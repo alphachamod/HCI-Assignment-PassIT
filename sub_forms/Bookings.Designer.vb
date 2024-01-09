@@ -542,7 +542,7 @@ Partial Class Bookings
         Label1.Name = "Label1"
         Label1.Size = New Size(64, 50)
         Label1.TabIndex = 11
-        Label1.Text = "04"
+        Label1.Text = "03"
         ' 
         ' Label2
         ' 

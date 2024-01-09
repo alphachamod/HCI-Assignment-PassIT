@@ -42,6 +42,8 @@ Partial Class main_interface
         IconPictureBox4 = New FontAwesome.Sharp.IconPictureBox()
         IconPictureBox5 = New FontAwesome.Sharp.IconPictureBox()
         sidebarPanel = New Panel()
+        Label39 = New Label()
+        Label38 = New Label()
         btn_logout = New FontAwesome.Sharp.IconButton()
         Panel3 = New Panel()
         PictureBox6 = New PictureBox()
@@ -103,6 +105,7 @@ Partial Class main_interface
         CType(IconPictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox5, ComponentModel.ISupportInitialize).BeginInit()
+        sidebarPanel.SuspendLayout()
         Panel3.SuspendLayout()
         CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox6, ComponentModel.ISupportInitialize).BeginInit()
@@ -178,7 +181,6 @@ Partial Class main_interface
         ' 
         Label7.AutoSize = True
         Label7.BackColor = Color.FromArgb(CByte(18), CByte(18), CByte(18))
-        Label7.Cursor = Cursors.Hand
         Label7.Font = New Font("Tw Cen MT", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label7.ForeColor = SystemColors.ButtonHighlight
         Label7.Location = New Point(83, 816)
@@ -191,7 +193,6 @@ Partial Class main_interface
         ' 
         Label6.AutoSize = True
         Label6.BackColor = Color.FromArgb(CByte(18), CByte(18), CByte(18))
-        Label6.Cursor = Cursors.Hand
         Label6.Font = New Font("Tw Cen MT", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = SystemColors.ButtonHighlight
         Label6.Location = New Point(83, 777)
@@ -346,7 +347,6 @@ Partial Class main_interface
         ' IconPictureBox3
         ' 
         IconPictureBox3.BackColor = Color.FromArgb(CByte(18), CByte(18), CByte(18))
-        IconPictureBox3.Cursor = Cursors.Hand
         IconPictureBox3.ForeColor = SystemColors.ButtonHighlight
         IconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.Phone
         IconPictureBox3.IconColor = SystemColors.ButtonHighlight
@@ -376,7 +376,6 @@ Partial Class main_interface
         ' IconPictureBox5
         ' 
         IconPictureBox5.BackColor = Color.FromArgb(CByte(18), CByte(18), CByte(18))
-        IconPictureBox5.Cursor = Cursors.Hand
         IconPictureBox5.ForeColor = SystemColors.ButtonHighlight
         IconPictureBox5.IconChar = FontAwesome.Sharp.IconChar.MailBulk
         IconPictureBox5.IconColor = SystemColors.ButtonHighlight
@@ -391,11 +390,37 @@ Partial Class main_interface
         ' sidebarPanel
         ' 
         sidebarPanel.BackColor = Color.FromArgb(CByte(18), CByte(18), CByte(18))
+        sidebarPanel.Controls.Add(Label39)
+        sidebarPanel.Controls.Add(Label38)
         sidebarPanel.Dock = DockStyle.Fill
         sidebarPanel.Location = New Point(0, 0)
         sidebarPanel.Name = "sidebarPanel"
         sidebarPanel.Size = New Size(401, 903)
         sidebarPanel.TabIndex = 19
+        ' 
+        ' Label39
+        ' 
+        Label39.AutoSize = True
+        Label39.BackColor = Color.FromArgb(CByte(18), CByte(18), CByte(18))
+        Label39.Font = New Font("Tw Cen MT", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label39.ForeColor = SystemColors.ButtonHighlight
+        Label39.Location = New Point(152, 816)
+        Label39.Name = "Label39"
+        Label39.Size = New Size(146, 20)
+        Label39.TabIndex = 21
+        Label39.Text = "support@passit.com"
+        ' 
+        ' Label38
+        ' 
+        Label38.AutoSize = True
+        Label38.BackColor = Color.FromArgb(CByte(18), CByte(18), CByte(18))
+        Label38.Font = New Font("Tw Cen MT", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label38.ForeColor = SystemColors.ButtonHighlight
+        Label38.Location = New Point(150, 777)
+        Label38.Name = "Label38"
+        Label38.Size = New Size(105, 20)
+        Label38.TabIndex = 20
+        Label38.Text = "074-2109876"
         ' 
         ' btn_logout
         ' 
@@ -1122,6 +1147,8 @@ Partial Class main_interface
         CType(IconPictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(IconPictureBox4, ComponentModel.ISupportInitialize).EndInit()
         CType(IconPictureBox5, ComponentModel.ISupportInitialize).EndInit()
+        sidebarPanel.ResumeLayout(False)
+        sidebarPanel.PerformLayout()
         Panel3.ResumeLayout(False)
         Panel3.PerformLayout()
         CType(PictureBox6, ComponentModel.ISupportInitialize).EndInit()
@@ -1223,4 +1250,6 @@ Partial Class main_interface
     Friend WithEvents Label36 As Label
     Friend WithEvents Label37 As Label
     Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents Label39 As Label
+    Friend WithEvents Label38 As Label
 End Class

@@ -156,6 +156,7 @@ Partial Class Lessons
         ' Label40
         ' 
         Label40.AutoSize = True
+        Label40.Cursor = Cursors.Hand
         Label40.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label40.ForeColor = SystemColors.ButtonHighlight
         Label40.Location = New Point(882, 46)
@@ -203,6 +204,7 @@ Partial Class Lessons
         ' IconPictureBox6
         ' 
         IconPictureBox6.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox6.Cursor = Cursors.Hand
         IconPictureBox6.ForeColor = SystemColors.ButtonHighlight
         IconPictureBox6.IconChar = FontAwesome.Sharp.IconChar.Eye
         IconPictureBox6.IconColor = SystemColors.ButtonHighlight
@@ -302,6 +304,7 @@ Partial Class Lessons
         ' Label38
         ' 
         Label38.AutoSize = True
+        Label38.Cursor = Cursors.Hand
         Label38.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label38.ForeColor = SystemColors.ButtonHighlight
         Label38.Location = New Point(882, 46)
@@ -361,6 +364,7 @@ Partial Class Lessons
         ' IconPictureBox2
         ' 
         IconPictureBox2.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox2.Cursor = Cursors.Hand
         IconPictureBox2.ForeColor = SystemColors.ButtonHighlight
         IconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.Eye
         IconPictureBox2.IconColor = SystemColors.ButtonHighlight
@@ -458,6 +462,7 @@ Partial Class Lessons
         ' Label36
         ' 
         Label36.AutoSize = True
+        Label36.Cursor = Cursors.Hand
         Label36.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label36.ForeColor = SystemColors.ButtonHighlight
         Label36.Location = New Point(882, 44)
@@ -494,6 +499,7 @@ Partial Class Lessons
         ' IconPictureBox4
         ' 
         IconPictureBox4.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox4.Cursor = Cursors.Hand
         IconPictureBox4.ForeColor = SystemColors.ButtonHighlight
         IconPictureBox4.IconChar = FontAwesome.Sharp.IconChar.Eye
         IconPictureBox4.IconColor = SystemColors.ButtonHighlight
@@ -591,6 +597,7 @@ Partial Class Lessons
         ' Label37
         ' 
         Label37.AutoSize = True
+        Label37.Cursor = Cursors.Hand
         Label37.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label37.ForeColor = SystemColors.ButtonHighlight
         Label37.Location = New Point(882, 46)
@@ -627,6 +634,7 @@ Partial Class Lessons
         ' IconPictureBox8
         ' 
         IconPictureBox8.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox8.Cursor = Cursors.Hand
         IconPictureBox8.ForeColor = SystemColors.ButtonHighlight
         IconPictureBox8.IconChar = FontAwesome.Sharp.IconChar.Eye
         IconPictureBox8.IconColor = SystemColors.ButtonHighlight
@@ -715,6 +723,7 @@ Partial Class Lessons
         ' Label42
         ' 
         Label42.AutoSize = True
+        Label42.Cursor = Cursors.Hand
         Label42.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label42.ForeColor = SystemColors.ButtonHighlight
         Label42.Location = New Point(882, 46)
@@ -797,6 +806,7 @@ Partial Class Lessons
         ' IconPictureBox10
         ' 
         IconPictureBox10.BackColor = Color.FromArgb(CByte(25), CByte(29), CByte(35))
+        IconPictureBox10.Cursor = Cursors.Hand
         IconPictureBox10.ForeColor = SystemColors.ButtonHighlight
         IconPictureBox10.IconChar = FontAwesome.Sharp.IconChar.Eye
         IconPictureBox10.IconColor = SystemColors.ButtonHighlight
