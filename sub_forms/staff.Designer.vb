@@ -61,19 +61,7 @@ Partial Class staff
         Label29 = New Label()
         PictureBox3 = New PictureBox()
         Label1 = New Label()
-        PictureBox4 = New PictureBox()
         Label8 = New Label()
-        PictureBox8 = New PictureBox()
-        Label9 = New Label()
-        Label10 = New Label()
-        Label11 = New Label()
-        Label12 = New Label()
-        Label20 = New Label()
-        Label21 = New Label()
-        Label22 = New Label()
-        Label26 = New Label()
-        Label28 = New Label()
-        Label30 = New Label()
         CType(IconPictureBox9, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox10, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox7, ComponentModel.ISupportInitialize).BeginInit()
@@ -93,8 +81,6 @@ Partial Class staff
         CType(IconPictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox8, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label18
@@ -102,7 +88,7 @@ Partial Class staff
         Label18.AutoSize = True
         Label18.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label18.ForeColor = SystemColors.ButtonHighlight
-        Label18.Location = New Point(636, 644)
+        Label18.Location = New Point(751, 651)
         Label18.Name = "Label18"
         Label18.Size = New Size(194, 23)
         Label18.TabIndex = 218
@@ -116,7 +102,7 @@ Partial Class staff
         IconPictureBox9.IconColor = SystemColors.ActiveBorder
         IconPictureBox9.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox9.IconSize = 24
-        IconPictureBox9.Location = New Point(599, 644)
+        IconPictureBox9.Location = New Point(714, 651)
         IconPictureBox9.Name = "IconPictureBox9"
         IconPictureBox9.Size = New Size(25, 24)
         IconPictureBox9.TabIndex = 217
@@ -130,7 +116,7 @@ Partial Class staff
         IconPictureBox10.IconColor = SystemColors.ActiveBorder
         IconPictureBox10.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox10.IconSize = 24
-        IconPictureBox10.Location = New Point(600, 675)
+        IconPictureBox10.Location = New Point(715, 682)
         IconPictureBox10.Name = "IconPictureBox10"
         IconPictureBox10.Size = New Size(25, 24)
         IconPictureBox10.TabIndex = 216
@@ -141,7 +127,7 @@ Partial Class staff
         Label19.AutoSize = True
         Label19.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label19.ForeColor = SystemColors.ButtonHighlight
-        Label19.Location = New Point(636, 671)
+        Label19.Location = New Point(751, 678)
         Label19.Name = "Label19"
         Label19.Size = New Size(105, 23)
         Label19.TabIndex = 215
@@ -152,7 +138,7 @@ Partial Class staff
         Label23.AutoSize = True
         Label23.Font = New Font("Segoe UI Light", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label23.ForeColor = SystemColors.ButtonHighlight
-        Label23.Location = New Point(596, 603)
+        Label23.Location = New Point(711, 610)
         Label23.Name = "Label23"
         Label23.Size = New Size(178, 31)
         Label23.TabIndex = 214
@@ -161,7 +147,7 @@ Partial Class staff
         ' PictureBox7
         ' 
         PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), Image)
-        PictureBox7.Location = New Point(435, 576)
+        PictureBox7.Location = New Point(550, 583)
         PictureBox7.Name = "PictureBox7"
         PictureBox7.Size = New Size(155, 146)
         PictureBox7.SizeMode = PictureBoxSizeMode.Zoom
@@ -176,7 +162,7 @@ Partial Class staff
         IconPictureBox11.IconColor = SystemColors.ActiveBorder
         IconPictureBox11.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox11.IconSize = 24
-        IconPictureBox11.Location = New Point(191, 644)
+        IconPictureBox11.Location = New Point(311, 651)
         IconPictureBox11.Name = "IconPictureBox11"
         IconPictureBox11.Size = New Size(25, 24)
         IconPictureBox11.TabIndex = 212
@@ -190,7 +176,7 @@ Partial Class staff
         IconPictureBox12.IconColor = SystemColors.ActiveBorder
         IconPictureBox12.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox12.IconSize = 24
-        IconPictureBox12.Location = New Point(192, 675)
+        IconPictureBox12.Location = New Point(312, 682)
         IconPictureBox12.Name = "IconPictureBox12"
         IconPictureBox12.Size = New Size(25, 24)
         IconPictureBox12.TabIndex = 211
@@ -201,7 +187,7 @@ Partial Class staff
         Label24.AutoSize = True
         Label24.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label24.ForeColor = SystemColors.ButtonHighlight
-        Label24.Location = New Point(228, 671)
+        Label24.Location = New Point(348, 678)
         Label24.Name = "Label24"
         Label24.Size = New Size(102, 23)
         Label24.TabIndex = 210
@@ -212,7 +198,7 @@ Partial Class staff
         Label25.AutoSize = True
         Label25.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label25.ForeColor = SystemColors.ButtonHighlight
-        Label25.Location = New Point(228, 644)
+        Label25.Location = New Point(348, 651)
         Label25.Name = "Label25"
         Label25.Size = New Size(195, 23)
         Label25.TabIndex = 209
@@ -223,7 +209,7 @@ Partial Class staff
         Label27.AutoSize = True
         Label27.Font = New Font("Segoe UI Light", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label27.ForeColor = SystemColors.ButtonHighlight
-        Label27.Location = New Point(188, 603)
+        Label27.Location = New Point(308, 610)
         Label27.Name = "Label27"
         Label27.Size = New Size(177, 31)
         Label27.TabIndex = 208
@@ -232,7 +218,7 @@ Partial Class staff
         ' PictureBox9
         ' 
         PictureBox9.Image = CType(resources.GetObject("PictureBox9.Image"), Image)
-        PictureBox9.Location = New Point(27, 576)
+        PictureBox9.Location = New Point(147, 583)
         PictureBox9.Name = "PictureBox9"
         PictureBox9.Size = New Size(155, 146)
         PictureBox9.SizeMode = PictureBoxSizeMode.Zoom
@@ -247,7 +233,7 @@ Partial Class staff
         IconPictureBox5.IconColor = SystemColors.ActiveBorder
         IconPictureBox5.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox5.IconSize = 24
-        IconPictureBox5.Location = New Point(599, 432)
+        IconPictureBox5.Location = New Point(714, 439)
         IconPictureBox5.Name = "IconPictureBox5"
         IconPictureBox5.Size = New Size(25, 24)
         IconPictureBox5.TabIndex = 206
@@ -261,7 +247,7 @@ Partial Class staff
         IconPictureBox6.IconColor = SystemColors.ActiveBorder
         IconPictureBox6.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox6.IconSize = 24
-        IconPictureBox6.Location = New Point(600, 463)
+        IconPictureBox6.Location = New Point(715, 470)
         IconPictureBox6.Name = "IconPictureBox6"
         IconPictureBox6.Size = New Size(25, 24)
         IconPictureBox6.TabIndex = 205
@@ -272,7 +258,7 @@ Partial Class staff
         Label13.AutoSize = True
         Label13.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label13.ForeColor = SystemColors.ButtonHighlight
-        Label13.Location = New Point(636, 459)
+        Label13.Location = New Point(751, 466)
         Label13.Name = "Label13"
         Label13.Size = New Size(105, 23)
         Label13.TabIndex = 204
@@ -283,7 +269,7 @@ Partial Class staff
         Label14.AutoSize = True
         Label14.Font = New Font("Segoe UI Light", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label14.ForeColor = SystemColors.ButtonHighlight
-        Label14.Location = New Point(596, 391)
+        Label14.Location = New Point(711, 398)
         Label14.Name = "Label14"
         Label14.Size = New Size(204, 31)
         Label14.TabIndex = 203
@@ -292,7 +278,7 @@ Partial Class staff
         ' PictureBox5
         ' 
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(435, 364)
+        PictureBox5.Location = New Point(550, 371)
         PictureBox5.Name = "PictureBox5"
         PictureBox5.Size = New Size(155, 146)
         PictureBox5.SizeMode = PictureBoxSizeMode.Zoom
@@ -307,7 +293,7 @@ Partial Class staff
         IconPictureBox7.IconColor = SystemColors.ActiveBorder
         IconPictureBox7.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox7.IconSize = 24
-        IconPictureBox7.Location = New Point(191, 432)
+        IconPictureBox7.Location = New Point(311, 439)
         IconPictureBox7.Name = "IconPictureBox7"
         IconPictureBox7.Size = New Size(25, 24)
         IconPictureBox7.TabIndex = 201
@@ -321,7 +307,7 @@ Partial Class staff
         IconPictureBox8.IconColor = SystemColors.ActiveBorder
         IconPictureBox8.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox8.IconSize = 24
-        IconPictureBox8.Location = New Point(192, 463)
+        IconPictureBox8.Location = New Point(312, 470)
         IconPictureBox8.Name = "IconPictureBox8"
         IconPictureBox8.Size = New Size(25, 24)
         IconPictureBox8.TabIndex = 200
@@ -332,7 +318,7 @@ Partial Class staff
         Label15.AutoSize = True
         Label15.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label15.ForeColor = SystemColors.ButtonHighlight
-        Label15.Location = New Point(228, 459)
+        Label15.Location = New Point(348, 466)
         Label15.Name = "Label15"
         Label15.Size = New Size(105, 23)
         Label15.TabIndex = 199
@@ -343,7 +329,7 @@ Partial Class staff
         Label16.AutoSize = True
         Label16.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label16.ForeColor = SystemColors.ButtonHighlight
-        Label16.Location = New Point(228, 432)
+        Label16.Location = New Point(348, 439)
         Label16.Name = "Label16"
         Label16.Size = New Size(177, 23)
         Label16.TabIndex = 198
@@ -354,7 +340,7 @@ Partial Class staff
         Label17.AutoSize = True
         Label17.Font = New Font("Segoe UI Light", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label17.ForeColor = SystemColors.ButtonHighlight
-        Label17.Location = New Point(188, 391)
+        Label17.Location = New Point(308, 398)
         Label17.Name = "Label17"
         Label17.Size = New Size(168, 31)
         Label17.TabIndex = 197
@@ -363,7 +349,7 @@ Partial Class staff
         ' PictureBox6
         ' 
         PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), Image)
-        PictureBox6.Location = New Point(27, 364)
+        PictureBox6.Location = New Point(147, 371)
         PictureBox6.Name = "PictureBox6"
         PictureBox6.Size = New Size(155, 146)
         PictureBox6.SizeMode = PictureBoxSizeMode.Zoom
@@ -375,7 +361,7 @@ Partial Class staff
         Label6.AutoSize = True
         Label6.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = SystemColors.ButtonHighlight
-        Label6.Location = New Point(636, 226)
+        Label6.Location = New Point(751, 233)
         Label6.Name = "Label6"
         Label6.Size = New Size(194, 23)
         Label6.TabIndex = 195
@@ -389,7 +375,7 @@ Partial Class staff
         IconPictureBox3.IconColor = SystemColors.ActiveBorder
         IconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox3.IconSize = 24
-        IconPictureBox3.Location = New Point(599, 226)
+        IconPictureBox3.Location = New Point(714, 233)
         IconPictureBox3.Name = "IconPictureBox3"
         IconPictureBox3.Size = New Size(25, 24)
         IconPictureBox3.TabIndex = 194
@@ -403,7 +389,7 @@ Partial Class staff
         IconPictureBox4.IconColor = SystemColors.ActiveBorder
         IconPictureBox4.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox4.IconSize = 24
-        IconPictureBox4.Location = New Point(600, 257)
+        IconPictureBox4.Location = New Point(715, 264)
         IconPictureBox4.Name = "IconPictureBox4"
         IconPictureBox4.Size = New Size(25, 24)
         IconPictureBox4.TabIndex = 193
@@ -414,7 +400,7 @@ Partial Class staff
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = SystemColors.ButtonHighlight
-        Label5.Location = New Point(636, 253)
+        Label5.Location = New Point(751, 260)
         Label5.Name = "Label5"
         Label5.Size = New Size(102, 23)
         Label5.TabIndex = 192
@@ -425,7 +411,7 @@ Partial Class staff
         Label7.AutoSize = True
         Label7.Font = New Font("Segoe UI Light", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label7.ForeColor = SystemColors.ButtonHighlight
-        Label7.Location = New Point(596, 185)
+        Label7.Location = New Point(711, 192)
         Label7.Name = "Label7"
         Label7.Size = New Size(201, 31)
         Label7.TabIndex = 191
@@ -434,7 +420,7 @@ Partial Class staff
         ' PictureBox2
         ' 
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(435, 158)
+        PictureBox2.Location = New Point(550, 165)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(155, 146)
         PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
@@ -449,7 +435,7 @@ Partial Class staff
         IconPictureBox2.IconColor = SystemColors.ActiveBorder
         IconPictureBox2.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox2.IconSize = 24
-        IconPictureBox2.Location = New Point(191, 226)
+        IconPictureBox2.Location = New Point(311, 233)
         IconPictureBox2.Name = "IconPictureBox2"
         IconPictureBox2.Size = New Size(25, 24)
         IconPictureBox2.TabIndex = 189
@@ -463,7 +449,7 @@ Partial Class staff
         IconPictureBox1.IconColor = SystemColors.ActiveBorder
         IconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox1.IconSize = 24
-        IconPictureBox1.Location = New Point(192, 257)
+        IconPictureBox1.Location = New Point(312, 264)
         IconPictureBox1.Name = "IconPictureBox1"
         IconPictureBox1.Size = New Size(25, 24)
         IconPictureBox1.TabIndex = 188
@@ -474,7 +460,7 @@ Partial Class staff
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label4.ForeColor = SystemColors.ButtonHighlight
-        Label4.Location = New Point(228, 253)
+        Label4.Location = New Point(348, 260)
         Label4.Name = "Label4"
         Label4.Size = New Size(105, 23)
         Label4.TabIndex = 187
@@ -485,7 +471,7 @@ Partial Class staff
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = SystemColors.ButtonHighlight
-        Label3.Location = New Point(228, 226)
+        Label3.Location = New Point(348, 233)
         Label3.Name = "Label3"
         Label3.Size = New Size(185, 23)
         Label3.TabIndex = 186
@@ -496,7 +482,7 @@ Partial Class staff
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI Light", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = SystemColors.ButtonHighlight
-        Label2.Location = New Point(188, 185)
+        Label2.Location = New Point(308, 192)
         Label2.Name = "Label2"
         Label2.Size = New Size(167, 31)
         Label2.TabIndex = 185
@@ -505,7 +491,7 @@ Partial Class staff
         ' PictureBox1
         ' 
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(27, 158)
+        PictureBox1.Location = New Point(147, 165)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(155, 146)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
@@ -545,146 +531,16 @@ Partial Class staff
         Label1.TabIndex = 181
         Label1.Text = "Instructors"
         ' 
-        ' PictureBox4
-        ' 
-        PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), Image)
-        PictureBox4.Location = New Point(871, 29)
-        PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(185, 187)
-        PictureBox4.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox4.TabIndex = 219
-        PictureBox4.TabStop = False
-        ' 
         ' Label8
         ' 
         Label8.AutoSize = True
         Label8.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label8.ForeColor = SystemColors.ButtonHighlight
-        Label8.Location = New Point(636, 432)
+        Label8.Location = New Point(751, 439)
         Label8.Name = "Label8"
         Label8.Size = New Size(209, 23)
         Label8.TabIndex = 220
         Label8.Text = "william.johnson@passit.com"
-        ' 
-        ' PictureBox8
-        ' 
-        PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), Image)
-        PictureBox8.Location = New Point(871, 401)
-        PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(185, 187)
-        PictureBox8.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox8.TabIndex = 221
-        PictureBox8.TabStop = False
-        ' 
-        ' Label9
-        ' 
-        Label9.AutoSize = True
-        Label9.Font = New Font("Segoe UI Light", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label9.ForeColor = SystemColors.ButtonHighlight
-        Label9.Location = New Point(865, 219)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(199, 31)
-        Label9.TabIndex = 222
-        Label9.Text = "Mr. Benjamin Taylor"
-        ' 
-        ' Label10
-        ' 
-        Label10.AutoSize = True
-        Label10.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label10.ForeColor = SystemColors.ButtonHighlight
-        Label10.Location = New Point(860, 301)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(211, 23)
-        Label10.TabIndex = 223
-        Label10.Text = "benjamin.taylor@passit.com"
-        ' 
-        ' Label11
-        ' 
-        Label11.AutoSize = True
-        Label11.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label11.ForeColor = SystemColors.ButtonHighlight
-        Label11.Location = New Point(910, 258)
-        Label11.Name = "Label11"
-        Label11.Size = New Size(104, 23)
-        Label11.TabIndex = 224
-        Label11.Text = "Adminstrator"
-        ' 
-        ' Label12
-        ' 
-        Label12.AutoSize = True
-        Label12.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label12.ForeColor = SystemColors.ButtonHighlight
-        Label12.Location = New Point(898, 281)
-        Label12.Name = "Label12"
-        Label12.Size = New Size(129, 23)
-        Label12.TabIndex = 225
-        Label12.Text = "Senior Instructor"
-        ' 
-        ' Label20
-        ' 
-        Label20.AutoSize = True
-        Label20.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label20.ForeColor = SystemColors.ButtonHighlight
-        Label20.Location = New Point(912, 324)
-        Label20.Name = "Label20"
-        Label20.Size = New Size(102, 23)
-        Label20.TabIndex = 226
-        Label20.Text = "074-2109876"
-        ' 
-        ' Label21
-        ' 
-        Label21.AutoSize = True
-        Label21.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label21.ForeColor = SystemColors.ButtonHighlight
-        Label21.Location = New Point(915, 698)
-        Label21.Name = "Label21"
-        Label21.Size = New Size(102, 23)
-        Label21.TabIndex = 231
-        Label21.Text = "074-6789012"
-        ' 
-        ' Label22
-        ' 
-        Label22.AutoSize = True
-        Label22.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label22.ForeColor = SystemColors.ButtonHighlight
-        Label22.Location = New Point(901, 655)
-        Label22.Name = "Label22"
-        Label22.Size = New Size(129, 23)
-        Label22.TabIndex = 230
-        Label22.Text = "Senior Instructor"
-        ' 
-        ' Label26
-        ' 
-        Label26.AutoSize = True
-        Label26.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label26.ForeColor = SystemColors.ButtonHighlight
-        Label26.Location = New Point(895, 636)
-        Label26.Name = "Label26"
-        Label26.Size = New Size(145, 23)
-        Label26.TabIndex = 229
-        Label26.Text = "Course Cordinator"
-        ' 
-        ' Label28
-        ' 
-        Label28.AutoSize = True
-        Label28.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label28.ForeColor = SystemColors.ButtonHighlight
-        Label28.Location = New Point(863, 675)
-        Label28.Name = "Label28"
-        Label28.Size = New Size(209, 23)
-        Label28.TabIndex = 228
-        Label28.Text = "charlotte.taylor@passit.com"
-        ' 
-        ' Label30
-        ' 
-        Label30.AutoSize = True
-        Label30.Font = New Font("Segoe UI Light", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label30.ForeColor = SystemColors.ButtonHighlight
-        Label30.Location = New Point(864, 598)
-        Label30.Name = "Label30"
-        Label30.Size = New Size(211, 31)
-        Label30.TabIndex = 227
-        Label30.Text = "Mrs. Charlotte Taylor"
         ' 
         ' staff
         ' 
@@ -692,19 +548,7 @@ Partial Class staff
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(11), CByte(11), CByte(11))
         ClientSize = New Size(1081, 778)
-        Controls.Add(Label21)
-        Controls.Add(Label22)
-        Controls.Add(Label26)
-        Controls.Add(Label28)
-        Controls.Add(Label30)
-        Controls.Add(Label20)
-        Controls.Add(Label12)
-        Controls.Add(Label11)
-        Controls.Add(Label10)
-        Controls.Add(Label9)
-        Controls.Add(PictureBox8)
         Controls.Add(Label8)
-        Controls.Add(PictureBox4)
         Controls.Add(Label18)
         Controls.Add(IconPictureBox9)
         Controls.Add(IconPictureBox10)
@@ -765,8 +609,6 @@ Partial Class staff
         CType(IconPictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox8, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -809,17 +651,5 @@ Partial Class staff
     Friend WithEvents Label29 As Label
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label20 As Label
-    Friend WithEvents Label21 As Label
-    Friend WithEvents Label22 As Label
-    Friend WithEvents Label26 As Label
-    Friend WithEvents Label28 As Label
-    Friend WithEvents Label30 As Label
 End Class
