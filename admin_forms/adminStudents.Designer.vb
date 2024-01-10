@@ -31,9 +31,6 @@ Partial Class adminStudents
         Label5 = New Label()
         Label6 = New Label()
         BunifuFlatButton1 = New Bunifu.Framework.UI.BunifuFlatButton()
-        BunifuCards3 = New Bunifu.Framework.UI.BunifuCards()
-        Label8 = New Label()
-        Label9 = New Label()
         BunifuCards4 = New Bunifu.Framework.UI.BunifuCards()
         Label19 = New Label()
         PictureBox3 = New PictureBox()
@@ -51,9 +48,10 @@ Partial Class adminStudents
         Label4 = New Label()
         Label7 = New Label()
         BunifuFlatButton2 = New Bunifu.Framework.UI.BunifuFlatButton()
+        BunifuTileButton1 = New Bunifu.Framework.UI.BunifuTileButton()
+        Label8 = New Label()
         BunifuCards1.SuspendLayout()
         BunifuCards2.SuspendLayout()
-        BunifuCards3.SuspendLayout()
         BunifuCards4.SuspendLayout()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -123,7 +121,7 @@ Partial Class adminStudents
         BunifuCards2.IndicatorColor = Color.Transparent
         BunifuCards2.LeftSahddow = False
         BunifuCards2.LeftShadow = False
-        BunifuCards2.Location = New Point(375, 115)
+        BunifuCards2.Location = New Point(388, 115)
         BunifuCards2.Name = "BunifuCards2"
         BunifuCards2.RightSahddow = True
         BunifuCards2.RightShadow = True
@@ -186,47 +184,6 @@ Partial Class adminStudents
         BunifuFlatButton1.TextAlign = ContentAlignment.MiddleLeft
         BunifuFlatButton1.Textcolor = Color.White
         BunifuFlatButton1.TextFont = New Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        ' 
-        ' BunifuCards3
-        ' 
-        BunifuCards3.BackColor = Color.White
-        BunifuCards3.BorderRadius = 5
-        BunifuCards3.BottomSahddow = True
-        BunifuCards3.BottomShadow = True
-        BunifuCards3.color = Color.Transparent
-        BunifuCards3.Controls.Add(Label8)
-        BunifuCards3.Controls.Add(Label9)
-        BunifuCards3.IndicatorColor = Color.Transparent
-        BunifuCards3.LeftSahddow = False
-        BunifuCards3.LeftShadow = False
-        BunifuCards3.Location = New Point(726, 115)
-        BunifuCards3.Name = "BunifuCards3"
-        BunifuCards3.RightSahddow = True
-        BunifuCards3.RightShadow = True
-        BunifuCards3.ShadowDepth = 20
-        BunifuCards3.Size = New Size(323, 155)
-        BunifuCards3.TabIndex = 7
-        ' 
-        ' Label8
-        ' 
-        Label8.AutoSize = True
-        Label8.Font = New Font("Calibri", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label8.ForeColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
-        Label8.Location = New Point(123, 22)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(92, 73)
-        Label8.TabIndex = 2
-        Label8.Text = "09"
-        ' 
-        ' Label9
-        ' 
-        Label9.AutoSize = True
-        Label9.Font = New Font("Segoe UI Light", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label9.Location = New Point(123, 95)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(100, 31)
-        Label9.TabIndex = 1
-        Label9.Text = "Pass Plus"
         ' 
         ' BunifuCards4
         ' 
@@ -449,15 +406,45 @@ Partial Class adminStudents
         BunifuFlatButton2.Textcolor = Color.White
         BunifuFlatButton2.TextFont = New Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         ' 
+        ' BunifuTileButton1
+        ' 
+        BunifuTileButton1.BackColor = Color.RoyalBlue
+        BunifuTileButton1.color = Color.RoyalBlue
+        BunifuTileButton1.colorActive = Color.MediumSeaGreen
+        BunifuTileButton1.Font = New Font("Segoe UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        BunifuTileButton1.ForeColor = Color.White
+        BunifuTileButton1.Image = CType(resources.GetObject("BunifuTileButton1.Image"), Image)
+        BunifuTileButton1.ImagePosition = 24
+        BunifuTileButton1.ImageZoom = 20
+        BunifuTileButton1.LabelPosition = 48
+        BunifuTileButton1.LabelText = "View Student Performance"
+        BunifuTileButton1.Location = New Point(741, 115)
+        BunifuTileButton1.Margin = New Padding(5, 7, 5, 7)
+        BunifuTileButton1.Name = "BunifuTileButton1"
+        BunifuTileButton1.Size = New Size(303, 155)
+        BunifuTileButton1.TabIndex = 15
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Font = New Font("Segoe UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label8.ForeColor = SystemColors.ControlDarkDark
+        Label8.Location = New Point(388, 53)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(208, 17)
+        Label8.TabIndex = 16
+        Label8.Text = "VIEW PAST STUDENTS RECORDS"
+        ' 
         ' adminStudents
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(242), CByte(246), CByte(255))
         ClientSize = New Size(1081, 802)
+        Controls.Add(Label8)
+        Controls.Add(BunifuTileButton1)
         Controls.Add(BunifuFlatButton2)
         Controls.Add(BunifuCards4)
-        Controls.Add(BunifuCards3)
         Controls.Add(BunifuFlatButton1)
         Controls.Add(BunifuCards2)
         Controls.Add(Label3)
@@ -469,8 +456,6 @@ Partial Class adminStudents
         BunifuCards1.PerformLayout()
         BunifuCards2.ResumeLayout(False)
         BunifuCards2.PerformLayout()
-        BunifuCards3.ResumeLayout(False)
-        BunifuCards3.PerformLayout()
         BunifuCards4.ResumeLayout(False)
         BunifuCards4.PerformLayout()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
@@ -488,9 +473,6 @@ Partial Class adminStudents
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents BunifuFlatButton1 As Bunifu.Framework.UI.BunifuFlatButton
-    Friend WithEvents BunifuCards3 As Bunifu.Framework.UI.BunifuCards
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label9 As Label
     Friend WithEvents BunifuCards4 As Bunifu.Framework.UI.BunifuCards
     Friend WithEvents Label10 As Label
     Friend WithEvents Label4 As Label
@@ -508,4 +490,6 @@ Partial Class adminStudents
     Friend WithEvents Label19 As Label
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents BunifuFlatButton2 As Bunifu.Framework.UI.BunifuFlatButton
+    Friend WithEvents BunifuTileButton1 As Bunifu.Framework.UI.BunifuTileButton
+    Friend WithEvents Label8 As Label
 End Class

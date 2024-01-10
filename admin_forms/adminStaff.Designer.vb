@@ -23,7 +23,6 @@ Partial Class adminStaff
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(adminStaff))
-        BunifuFlatButton2 = New Bunifu.Framework.UI.BunifuFlatButton()
         BunifuFlatButton1 = New Bunifu.Framework.UI.BunifuFlatButton()
         Label3 = New Label()
         Label8 = New Label()
@@ -62,6 +61,12 @@ Partial Class adminStaff
         PictureBox4 = New PictureBox()
         PictureBox5 = New PictureBox()
         PictureBox6 = New PictureBox()
+        IconPictureBox13 = New FontAwesome.Sharp.IconPictureBox()
+        IconPictureBox14 = New FontAwesome.Sharp.IconPictureBox()
+        IconPictureBox15 = New FontAwesome.Sharp.IconPictureBox()
+        IconPictureBox16 = New FontAwesome.Sharp.IconPictureBox()
+        IconPictureBox17 = New FontAwesome.Sharp.IconPictureBox()
+        IconPictureBox18 = New FontAwesome.Sharp.IconPictureBox()
         CType(IconPictureBox9, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox10, ComponentModel.ISupportInitialize).BeginInit()
         CType(IconPictureBox11, ComponentModel.ISupportInitialize).BeginInit()
@@ -80,42 +85,13 @@ Partial Class adminStaff
         CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
+        CType(IconPictureBox13, ComponentModel.ISupportInitialize).BeginInit()
+        CType(IconPictureBox14, ComponentModel.ISupportInitialize).BeginInit()
+        CType(IconPictureBox15, ComponentModel.ISupportInitialize).BeginInit()
+        CType(IconPictureBox16, ComponentModel.ISupportInitialize).BeginInit()
+        CType(IconPictureBox17, ComponentModel.ISupportInitialize).BeginInit()
+        CType(IconPictureBox18, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
-        ' 
-        ' BunifuFlatButton2
-        ' 
-        BunifuFlatButton2.Active = False
-        BunifuFlatButton2.Activecolor = Color.FromArgb(CByte(46), CByte(139), CByte(87))
-        BunifuFlatButton2.BackColor = Color.FromArgb(CByte(46), CByte(139), CByte(87))
-        BunifuFlatButton2.BackgroundImageLayout = ImageLayout.Stretch
-        BunifuFlatButton2.BorderRadius = 7
-        BunifuFlatButton2.ButtonText = "  Edit Staff"
-        BunifuFlatButton2.DisabledColor = Color.Gray
-        BunifuFlatButton2.Iconcolor = Color.Transparent
-        BunifuFlatButton2.Iconimage = CType(resources.GetObject("BunifuFlatButton2.Iconimage"), Image)
-        BunifuFlatButton2.Iconimage_right = Nothing
-        BunifuFlatButton2.Iconimage_right_Selected = Nothing
-        BunifuFlatButton2.Iconimage_Selected = Nothing
-        BunifuFlatButton2.IconMarginLeft = 40
-        BunifuFlatButton2.IconMarginRight = 0
-        BunifuFlatButton2.IconRightVisible = True
-        BunifuFlatButton2.IconRightZoom = 0R
-        BunifuFlatButton2.IconVisible = True
-        BunifuFlatButton2.IconZoom = 45R
-        BunifuFlatButton2.IsTab = False
-        BunifuFlatButton2.Location = New Point(841, 20)
-        BunifuFlatButton2.Margin = New Padding(4, 5, 4, 5)
-        BunifuFlatButton2.Name = "BunifuFlatButton2"
-        BunifuFlatButton2.Normalcolor = Color.FromArgb(CByte(46), CByte(139), CByte(87))
-        BunifuFlatButton2.OnHovercolor = Color.FromArgb(CByte(36), CByte(129), CByte(77))
-        BunifuFlatButton2.OnHoverTextColor = Color.White
-        BunifuFlatButton2.selected = False
-        BunifuFlatButton2.Size = New Size(211, 58)
-        BunifuFlatButton2.TabIndex = 17
-        BunifuFlatButton2.Text = "  Edit Staff"
-        BunifuFlatButton2.TextAlign = ContentAlignment.MiddleLeft
-        BunifuFlatButton2.Textcolor = Color.White
-        BunifuFlatButton2.TextFont = New Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         ' 
         ' BunifuFlatButton1
         ' 
@@ -138,7 +114,7 @@ Partial Class adminStaff
         BunifuFlatButton1.IconVisible = True
         BunifuFlatButton1.IconZoom = 45R
         BunifuFlatButton1.IsTab = False
-        BunifuFlatButton1.Location = New Point(622, 20)
+        BunifuFlatButton1.Location = New Point(827, 33)
         BunifuFlatButton1.Margin = New Padding(4, 5, 4, 5)
         BunifuFlatButton1.Name = "BunifuFlatButton1"
         BunifuFlatButton1.Normalcolor = Color.FromArgb(CByte(46), CByte(139), CByte(87))
@@ -167,7 +143,7 @@ Partial Class adminStaff
         Label8.AutoSize = True
         Label8.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label8.ForeColor = SystemColors.ActiveCaptionText
-        Label8.Location = New Point(657, 391)
+        Label8.Location = New Point(756, 391)
         Label8.Name = "Label8"
         Label8.Size = New Size(209, 23)
         Label8.TabIndex = 250
@@ -178,7 +154,7 @@ Partial Class adminStaff
         Label18.AutoSize = True
         Label18.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label18.ForeColor = SystemColors.ActiveCaptionText
-        Label18.Location = New Point(657, 603)
+        Label18.Location = New Point(756, 603)
         Label18.Name = "Label18"
         Label18.Size = New Size(194, 23)
         Label18.TabIndex = 249
@@ -192,7 +168,7 @@ Partial Class adminStaff
         IconPictureBox9.IconColor = SystemColors.ActiveCaptionText
         IconPictureBox9.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox9.IconSize = 24
-        IconPictureBox9.Location = New Point(620, 603)
+        IconPictureBox9.Location = New Point(719, 603)
         IconPictureBox9.Name = "IconPictureBox9"
         IconPictureBox9.Size = New Size(25, 24)
         IconPictureBox9.TabIndex = 248
@@ -206,7 +182,7 @@ Partial Class adminStaff
         IconPictureBox10.IconColor = SystemColors.ActiveCaptionText
         IconPictureBox10.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox10.IconSize = 24
-        IconPictureBox10.Location = New Point(621, 634)
+        IconPictureBox10.Location = New Point(720, 634)
         IconPictureBox10.Name = "IconPictureBox10"
         IconPictureBox10.Size = New Size(25, 24)
         IconPictureBox10.TabIndex = 247
@@ -217,7 +193,7 @@ Partial Class adminStaff
         Label19.AutoSize = True
         Label19.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label19.ForeColor = SystemColors.ActiveCaptionText
-        Label19.Location = New Point(657, 630)
+        Label19.Location = New Point(756, 630)
         Label19.Name = "Label19"
         Label19.Size = New Size(105, 23)
         Label19.TabIndex = 246
@@ -228,7 +204,7 @@ Partial Class adminStaff
         Label23.AutoSize = True
         Label23.Font = New Font("Segoe UI Light", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label23.ForeColor = SystemColors.ActiveCaptionText
-        Label23.Location = New Point(617, 562)
+        Label23.Location = New Point(716, 562)
         Label23.Name = "Label23"
         Label23.Size = New Size(178, 31)
         Label23.TabIndex = 245
@@ -303,7 +279,7 @@ Partial Class adminStaff
         IconPictureBox5.IconColor = SystemColors.ActiveCaptionText
         IconPictureBox5.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox5.IconSize = 24
-        IconPictureBox5.Location = New Point(620, 391)
+        IconPictureBox5.Location = New Point(719, 391)
         IconPictureBox5.Name = "IconPictureBox5"
         IconPictureBox5.Size = New Size(25, 24)
         IconPictureBox5.TabIndex = 239
@@ -317,7 +293,7 @@ Partial Class adminStaff
         IconPictureBox6.IconColor = SystemColors.ActiveCaptionText
         IconPictureBox6.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox6.IconSize = 24
-        IconPictureBox6.Location = New Point(621, 422)
+        IconPictureBox6.Location = New Point(720, 422)
         IconPictureBox6.Name = "IconPictureBox6"
         IconPictureBox6.Size = New Size(25, 24)
         IconPictureBox6.TabIndex = 238
@@ -328,7 +304,7 @@ Partial Class adminStaff
         Label13.AutoSize = True
         Label13.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label13.ForeColor = SystemColors.ActiveCaptionText
-        Label13.Location = New Point(657, 418)
+        Label13.Location = New Point(756, 418)
         Label13.Name = "Label13"
         Label13.Size = New Size(105, 23)
         Label13.TabIndex = 237
@@ -339,7 +315,7 @@ Partial Class adminStaff
         Label14.AutoSize = True
         Label14.Font = New Font("Segoe UI Light", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label14.ForeColor = SystemColors.ActiveCaptionText
-        Label14.Location = New Point(617, 350)
+        Label14.Location = New Point(716, 350)
         Label14.Name = "Label14"
         Label14.Size = New Size(204, 31)
         Label14.TabIndex = 236
@@ -411,7 +387,7 @@ Partial Class adminStaff
         Label6.AutoSize = True
         Label6.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = SystemColors.ActiveCaptionText
-        Label6.Location = New Point(657, 185)
+        Label6.Location = New Point(756, 185)
         Label6.Name = "Label6"
         Label6.Size = New Size(194, 23)
         Label6.TabIndex = 230
@@ -425,7 +401,7 @@ Partial Class adminStaff
         IconPictureBox3.IconColor = SystemColors.ActiveCaptionText
         IconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox3.IconSize = 24
-        IconPictureBox3.Location = New Point(620, 185)
+        IconPictureBox3.Location = New Point(719, 185)
         IconPictureBox3.Name = "IconPictureBox3"
         IconPictureBox3.Size = New Size(25, 24)
         IconPictureBox3.TabIndex = 229
@@ -439,7 +415,7 @@ Partial Class adminStaff
         IconPictureBox4.IconColor = SystemColors.ActiveCaptionText
         IconPictureBox4.IconFont = FontAwesome.Sharp.IconFont.Auto
         IconPictureBox4.IconSize = 24
-        IconPictureBox4.Location = New Point(621, 216)
+        IconPictureBox4.Location = New Point(720, 216)
         IconPictureBox4.Name = "IconPictureBox4"
         IconPictureBox4.Size = New Size(25, 24)
         IconPictureBox4.TabIndex = 228
@@ -450,7 +426,7 @@ Partial Class adminStaff
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI Light", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = SystemColors.ActiveCaptionText
-        Label5.Location = New Point(657, 212)
+        Label5.Location = New Point(756, 212)
         Label5.Name = "Label5"
         Label5.Size = New Size(102, 23)
         Label5.TabIndex = 227
@@ -461,7 +437,7 @@ Partial Class adminStaff
         Label7.AutoSize = True
         Label7.Font = New Font("Segoe UI Light", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label7.ForeColor = SystemColors.ActiveCaptionText
-        Label7.Location = New Point(617, 144)
+        Label7.Location = New Point(716, 144)
         Label7.Name = "Label7"
         Label7.Size = New Size(201, 31)
         Label7.TabIndex = 226
@@ -541,7 +517,7 @@ Partial Class adminStaff
         ' PictureBox2
         ' 
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(486, 139)
+        PictureBox2.Location = New Point(585, 139)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(125, 120)
         PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
@@ -561,7 +537,7 @@ Partial Class adminStaff
         ' PictureBox4
         ' 
         PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), Image)
-        PictureBox4.Location = New Point(486, 350)
+        PictureBox4.Location = New Point(585, 350)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(125, 120)
         PictureBox4.SizeMode = PictureBoxSizeMode.Zoom
@@ -571,7 +547,7 @@ Partial Class adminStaff
         ' PictureBox5
         ' 
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(486, 562)
+        PictureBox5.Location = New Point(585, 562)
         PictureBox5.Name = "PictureBox5"
         PictureBox5.Size = New Size(125, 120)
         PictureBox5.SizeMode = PictureBoxSizeMode.Zoom
@@ -588,12 +564,108 @@ Partial Class adminStaff
         PictureBox6.TabIndex = 256
         PictureBox6.TabStop = False
         ' 
+        ' IconPictureBox13
+        ' 
+        IconPictureBox13.BackColor = Color.Transparent
+        IconPictureBox13.Cursor = Cursors.Hand
+        IconPictureBox13.ForeColor = SystemColors.ActiveCaptionText
+        IconPictureBox13.IconChar = FontAwesome.Sharp.IconChar.PenToSquare
+        IconPictureBox13.IconColor = SystemColors.ActiveCaptionText
+        IconPictureBox13.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconPictureBox13.IconSize = 40
+        IconPictureBox13.Location = New Point(484, 177)
+        IconPictureBox13.Name = "IconPictureBox13"
+        IconPictureBox13.Size = New Size(42, 40)
+        IconPictureBox13.TabIndex = 257
+        IconPictureBox13.TabStop = False
+        ' 
+        ' IconPictureBox14
+        ' 
+        IconPictureBox14.BackColor = Color.Transparent
+        IconPictureBox14.Cursor = Cursors.Hand
+        IconPictureBox14.ForeColor = SystemColors.ActiveCaptionText
+        IconPictureBox14.IconChar = FontAwesome.Sharp.IconChar.PenToSquare
+        IconPictureBox14.IconColor = SystemColors.ActiveCaptionText
+        IconPictureBox14.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconPictureBox14.IconSize = 40
+        IconPictureBox14.Location = New Point(996, 177)
+        IconPictureBox14.Name = "IconPictureBox14"
+        IconPictureBox14.Size = New Size(42, 40)
+        IconPictureBox14.TabIndex = 258
+        IconPictureBox14.TabStop = False
+        ' 
+        ' IconPictureBox15
+        ' 
+        IconPictureBox15.BackColor = Color.Transparent
+        IconPictureBox15.Cursor = Cursors.Hand
+        IconPictureBox15.ForeColor = SystemColors.ActiveCaptionText
+        IconPictureBox15.IconChar = FontAwesome.Sharp.IconChar.PenToSquare
+        IconPictureBox15.IconColor = SystemColors.ActiveCaptionText
+        IconPictureBox15.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconPictureBox15.IconSize = 40
+        IconPictureBox15.Location = New Point(996, 384)
+        IconPictureBox15.Name = "IconPictureBox15"
+        IconPictureBox15.Size = New Size(42, 40)
+        IconPictureBox15.TabIndex = 260
+        IconPictureBox15.TabStop = False
+        ' 
+        ' IconPictureBox16
+        ' 
+        IconPictureBox16.BackColor = Color.Transparent
+        IconPictureBox16.Cursor = Cursors.Hand
+        IconPictureBox16.ForeColor = SystemColors.ActiveCaptionText
+        IconPictureBox16.IconChar = FontAwesome.Sharp.IconChar.PenToSquare
+        IconPictureBox16.IconColor = SystemColors.ActiveCaptionText
+        IconPictureBox16.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconPictureBox16.IconSize = 40
+        IconPictureBox16.Location = New Point(484, 384)
+        IconPictureBox16.Name = "IconPictureBox16"
+        IconPictureBox16.Size = New Size(42, 40)
+        IconPictureBox16.TabIndex = 259
+        IconPictureBox16.TabStop = False
+        ' 
+        ' IconPictureBox17
+        ' 
+        IconPictureBox17.BackColor = Color.Transparent
+        IconPictureBox17.Cursor = Cursors.Hand
+        IconPictureBox17.ForeColor = SystemColors.ActiveCaptionText
+        IconPictureBox17.IconChar = FontAwesome.Sharp.IconChar.PenToSquare
+        IconPictureBox17.IconColor = SystemColors.ActiveCaptionText
+        IconPictureBox17.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconPictureBox17.IconSize = 40
+        IconPictureBox17.Location = New Point(996, 599)
+        IconPictureBox17.Name = "IconPictureBox17"
+        IconPictureBox17.Size = New Size(42, 40)
+        IconPictureBox17.TabIndex = 262
+        IconPictureBox17.TabStop = False
+        ' 
+        ' IconPictureBox18
+        ' 
+        IconPictureBox18.BackColor = Color.Transparent
+        IconPictureBox18.Cursor = Cursors.Hand
+        IconPictureBox18.ForeColor = SystemColors.ActiveCaptionText
+        IconPictureBox18.IconChar = FontAwesome.Sharp.IconChar.PenToSquare
+        IconPictureBox18.IconColor = SystemColors.ActiveCaptionText
+        IconPictureBox18.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconPictureBox18.IconSize = 40
+        IconPictureBox18.Location = New Point(484, 599)
+        IconPictureBox18.Name = "IconPictureBox18"
+        IconPictureBox18.Size = New Size(42, 40)
+        IconPictureBox18.TabIndex = 261
+        IconPictureBox18.TabStop = False
+        ' 
         ' adminStaff
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(242), CByte(246), CByte(255))
         ClientSize = New Size(1081, 802)
+        Controls.Add(IconPictureBox17)
+        Controls.Add(IconPictureBox18)
+        Controls.Add(IconPictureBox15)
+        Controls.Add(IconPictureBox16)
+        Controls.Add(IconPictureBox14)
+        Controls.Add(IconPictureBox13)
         Controls.Add(PictureBox6)
         Controls.Add(PictureBox5)
         Controls.Add(PictureBox4)
@@ -630,7 +702,6 @@ Partial Class adminStaff
         Controls.Add(Label4)
         Controls.Add(Label1)
         Controls.Add(Label2)
-        Controls.Add(BunifuFlatButton2)
         Controls.Add(BunifuFlatButton1)
         Controls.Add(Label3)
         FormBorderStyle = FormBorderStyle.None
@@ -654,11 +725,15 @@ Partial Class adminStaff
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox6, ComponentModel.ISupportInitialize).EndInit()
+        CType(IconPictureBox13, ComponentModel.ISupportInitialize).EndInit()
+        CType(IconPictureBox14, ComponentModel.ISupportInitialize).EndInit()
+        CType(IconPictureBox15, ComponentModel.ISupportInitialize).EndInit()
+        CType(IconPictureBox16, ComponentModel.ISupportInitialize).EndInit()
+        CType(IconPictureBox17, ComponentModel.ISupportInitialize).EndInit()
+        CType(IconPictureBox18, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
-
-    Friend WithEvents BunifuFlatButton2 As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents BunifuFlatButton1 As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents Label3 As Label
     Friend WithEvents Label8 As Label
@@ -697,4 +772,10 @@ Partial Class adminStaff
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents IconPictureBox13 As FontAwesome.Sharp.IconPictureBox
+    Friend WithEvents IconPictureBox14 As FontAwesome.Sharp.IconPictureBox
+    Friend WithEvents IconPictureBox15 As FontAwesome.Sharp.IconPictureBox
+    Friend WithEvents IconPictureBox16 As FontAwesome.Sharp.IconPictureBox
+    Friend WithEvents IconPictureBox17 As FontAwesome.Sharp.IconPictureBox
+    Friend WithEvents IconPictureBox18 As FontAwesome.Sharp.IconPictureBox
 End Class
