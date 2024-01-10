@@ -378,7 +378,7 @@ Partial Class adminStudents
         BunifuFlatButton2.BackColor = Color.FromArgb(CByte(46), CByte(139), CByte(87))
         BunifuFlatButton2.BackgroundImageLayout = ImageLayout.Stretch
         BunifuFlatButton2.BorderRadius = 7
-        BunifuFlatButton2.ButtonText = "  Edit Lesson"
+        BunifuFlatButton2.ButtonText = "  Edit Student"
         BunifuFlatButton2.DisabledColor = Color.Gray
         BunifuFlatButton2.Iconcolor = Color.Transparent
         BunifuFlatButton2.Iconimage = CType(resources.GetObject("BunifuFlatButton2.Iconimage"), Image)
@@ -401,7 +401,7 @@ Partial Class adminStudents
         BunifuFlatButton2.selected = False
         BunifuFlatButton2.Size = New Size(211, 58)
         BunifuFlatButton2.TabIndex = 14
-        BunifuFlatButton2.Text = "  Edit Lesson"
+        BunifuFlatButton2.Text = "  Edit Student"
         BunifuFlatButton2.TextAlign = ContentAlignment.MiddleLeft
         BunifuFlatButton2.Textcolor = Color.White
         BunifuFlatButton2.TextFont = New Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
@@ -427,6 +427,7 @@ Partial Class adminStudents
         ' Label8
         ' 
         Label8.AutoSize = True
+        Label8.Cursor = Cursors.Hand
         Label8.Font = New Font("Segoe UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label8.ForeColor = SystemColors.ControlDarkDark
         Label8.Location = New Point(388, 53)

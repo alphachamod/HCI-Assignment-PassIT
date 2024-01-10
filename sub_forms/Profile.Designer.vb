@@ -573,9 +573,9 @@ Partial Class Profile
         Label13.ForeColor = SystemColors.ActiveCaptionText
         Label13.Location = New Point(233, 222)
         Label13.Name = "Label13"
-        Label13.Size = New Size(38, 25)
+        Label13.Size = New Size(22, 25)
         Label13.TabIndex = 12
-        Label13.Text = "M1"
+        Label13.Text = "B"
         ' 
         ' Label14
         ' 
