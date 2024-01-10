@@ -178,7 +178,7 @@ Partial Class adminOverview
         Label10.AutoSize = True
         Label10.Font = New Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label10.ForeColor = Color.LimeGreen
-        Label10.Location = New Point(181, 145)
+        Label10.Location = New Point(180, 145)
         Label10.Name = "Label10"
         Label10.Size = New Size(42, 25)
         Label10.TabIndex = 4
